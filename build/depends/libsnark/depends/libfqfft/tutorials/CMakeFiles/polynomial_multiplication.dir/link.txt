@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/openssl@3/lib CMakeFiles/polynomial_multiplication.dir/polynomial_multiplication_on_fft_example.cpp.o -o polynomial_multiplication  ../../libff/libff/libff.a /opt/homebrew/lib/libgmp.dylib

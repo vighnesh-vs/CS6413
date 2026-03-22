@@ -1,0 +1,19 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/abhijatsharma/privacy_project/build/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/libsnark/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/libsnark/depends/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/libsnark/depends/gtest/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/libsnark/depends/gtest/googlemock/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/libsnark/depends/gtest/googlemock/gtest/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/libsnark/depends/libff/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/libsnark/depends/libff/libff/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/libsnark/depends/libfqfft/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/libsnark/depends/libfqfft/tutorials/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/cmake_install.cmake",
+		"/Users/abhijatsharma/privacy_project/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
