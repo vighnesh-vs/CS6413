@@ -117,17 +117,40 @@ print(f"Test Accuracy: {100 * correct / total:.2f}%")
 
 dummy_input = torch.randn(1, 1, 28, 28).to(device)
 
-torch.onnx.export(
-    model,
-    dummy_input,
-    "zk_mlp.onnx",
-    input_names=["input"],
-    output_names=["output"],
-    opset_version=11
-)
+# torch.onnx.export(
+#     model,
+#     dummy_input,
+#     "model.onnx",
+#     opset_version=11
+# )
 
-print("Model exported to zk_mlp.onnx")
+# torch.onnx.export(
+#     model,
+#     dummy_input,
+#     "zk_mlp.onnx",
+#     input_names=["input"],
+#     output_names=["output"],
+#     opset_version=14
+# )
+
+# print("Model exported to zk_mlp.onnx")
 
 # Show prediction for the first 5 test images
 for i in range(5):
     show_image_prediction(model, test_dataset, i)
+
+# model.eval()
+
+# Use a real MNIST image
+# real_image, _ = test_dataset[0]
+# real_input = real_image.unsqueeze(0).to(device)
+
+# torch.onnx.export(
+#     model,
+#     real_input,
+#     "zk_mlp.onnx",
+#     input_names=["input"],
+#     output_names=["output"],
+#     opset_version=14,
+#     do_constant_folding=True
+# )
