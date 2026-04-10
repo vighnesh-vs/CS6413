@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 # Utility rule file for doc.
 
@@ -67,8 +67,8 @@ include depends/libsnark/CMakeFiles/doc.dir/compiler_depend.make
 include depends/libsnark/CMakeFiles/doc.dir/progress.make
 
 depends/libsnark/CMakeFiles/doc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/abhijatsharma/privacy_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Translating from markdown to HTML"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark && /Library/Frameworks/Python.framework/Versions/3.9/bin/markdown_py -f /Users/abhijatsharma/privacy_project/build/depends/libsnark/README.html -x toc -x extra --noisy /Users/abhijatsharma/privacy_project/depends/libsnark/README.md
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/classroomservices/Documents/CS6413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Translating from markdown to HTML"
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark && /opt/anaconda3/bin/markdown_py -f /Users/classroomservices/Documents/CS6413/build/depends/libsnark/README.html -x toc -x extra --noisy /Users/classroomservices/Documents/CS6413/depends/libsnark/README.md
 
 depends/libsnark/CMakeFiles/doc.dir/codegen:
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/codegen
@@ -82,10 +82,10 @@ depends/libsnark/CMakeFiles/doc.dir/build: doc
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/build
 
 depends/libsnark/CMakeFiles/doc.dir/clean:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/doc.dir/cmake_clean.cmake
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/doc.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/clean
 
 depends/libsnark/CMakeFiles/doc.dir/depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abhijatsharma/privacy_project /Users/abhijatsharma/privacy_project/depends/libsnark /Users/abhijatsharma/privacy_project/build /Users/abhijatsharma/privacy_project/build/depends/libsnark /Users/abhijatsharma/privacy_project/build/depends/libsnark/CMakeFiles/doc.dir/DependInfo.cmake "--color=$(COLOR)" doc
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/classroomservices/Documents/CS6413 /Users/classroomservices/Documents/CS6413/depends/libsnark /Users/classroomservices/Documents/CS6413/build /Users/classroomservices/Documents/CS6413/build/depends/libsnark /Users/classroomservices/Documents/CS6413/build/depends/libsnark/CMakeFiles/doc.dir/DependInfo.cmake "--color=$(COLOR)" doc
 .PHONY : depends/libsnark/CMakeFiles/doc.dir/depend
 

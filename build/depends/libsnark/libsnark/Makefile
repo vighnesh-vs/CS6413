@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/abhijatsharma/privacy_project/build/CMakeFiles /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark//CMakeFiles/progress.marks
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/abhijatsharma/privacy_project/build/CMakeFiles 0
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/classroomservices/Documents/CS6413/build/CMakeFiles /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark//CMakeFiles/progress.marks
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/classroomservices/Documents/CS6413/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/clean
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/preinstall
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/preinstall
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/snark.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/snark.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/snark.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/snark.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ snark: depends/libsnark/libsnark/CMakeFiles/snark.dir/rule
 
 # fast build rule for target.
 snark/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/build
 .PHONY : snark/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ demo_arithmetization: depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.
 
 # fast build rule for target.
 demo_arithmetization/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build
 .PHONY : demo_arithmetization/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ demo_ram_ppzksnark: depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/
 
 # fast build rule for target.
 demo_ram_ppzksnark/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build
 .PHONY : demo_ram_ppzksnark/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ demo_ram_ppzksnark_generator: depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzk
 
 # fast build rule for target.
 demo_ram_ppzksnark_generator/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/build
 .PHONY : demo_ram_ppzksnark_generator/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ demo_ram_ppzksnark_prover: depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksna
 
 # fast build rule for target.
 demo_ram_ppzksnark_prover/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/build
 .PHONY : demo_ram_ppzksnark_prover/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/rule
 
 # Convenience name for target.
@@ -242,12 +242,12 @@ demo_ram_ppzksnark_verifier: depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzks
 
 # fast build rule for target.
 demo_ram_ppzksnark_verifier/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/build
 .PHONY : demo_ram_ppzksnark_verifier/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/rule
 
 # Convenience name for target.
@@ -256,12 +256,12 @@ profile_routing_algorithms: depends/libsnark/libsnark/CMakeFiles/profile_routing
 
 # fast build rule for target.
 profile_routing_algorithms/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build
 .PHONY : profile_routing_algorithms/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/rule
 
 # Convenience name for target.
@@ -270,12 +270,12 @@ profile_routing_gadgets: depends/libsnark/libsnark/CMakeFiles/profile_routing_ga
 
 # fast build rule for target.
 profile_routing_gadgets/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/build
 .PHONY : profile_routing_gadgets/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ profile_r1cs_ppzksnark: depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksn
 
 # fast build rule for target.
 profile_r1cs_ppzksnark/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/build
 .PHONY : profile_r1cs_ppzksnark/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/rule
 
 # Convenience name for target.
@@ -298,12 +298,12 @@ profile_r1cs_se_ppzksnark: depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_
 
 # fast build rule for target.
 profile_r1cs_se_ppzksnark/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/build
 .PHONY : profile_r1cs_se_ppzksnark/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ profile_r1cs_mp_ppzkpcd: depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_pp
 
 # fast build rule for target.
 profile_r1cs_mp_ppzkpcd/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build
 .PHONY : profile_r1cs_mp_ppzkpcd/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/rule
 
 # Convenience name for target.
@@ -326,12 +326,12 @@ profile_r1cs_sp_ppzkpcd: depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_pp
 
 # fast build rule for target.
 profile_r1cs_sp_ppzkpcd/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/build
 .PHONY : profile_r1cs_sp_ppzkpcd/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/rule
 
 # Convenience name for target.
@@ -340,12 +340,12 @@ profile_bacs_ppzksnark: depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksn
 
 # fast build rule for target.
 profile_bacs_ppzksnark/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build
 .PHONY : profile_bacs_ppzksnark/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/rule
 
 # Convenience name for target.
@@ -354,12 +354,12 @@ profile_r1cs_gg_ppzksnark: depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_
 
 # fast build rule for target.
 profile_r1cs_gg_ppzksnark/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build
 .PHONY : profile_r1cs_gg_ppzksnark/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/rule
 
 # Convenience name for target.
@@ -368,12 +368,12 @@ profile_ram_ppzksnark: depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnar
 
 # fast build rule for target.
 profile_ram_ppzksnark/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/build
 .PHONY : profile_ram_ppzksnark/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/rule
 
 # Convenience name for target.
@@ -382,12 +382,12 @@ profile_tbcs_ppzksnark: depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksn
 
 # fast build rule for target.
 profile_tbcs_ppzksnark/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build
 .PHONY : profile_tbcs_ppzksnark/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/rule
 
 # Convenience name for target.
@@ -396,12 +396,12 @@ profile_uscs_ppzksnark: depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksn
 
 # fast build rule for target.
 profile_uscs_ppzksnark/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build
 .PHONY : profile_uscs_ppzksnark/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/rule
 
 # Convenience name for target.
@@ -410,12 +410,12 @@ profile_ram_zksnark: depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.di
 
 # fast build rule for target.
 profile_ram_zksnark/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build
 .PHONY : profile_ram_zksnark/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/rule
 
 # Convenience name for target.
@@ -424,12 +424,12 @@ common_routing_algorithms_test: depends/libsnark/libsnark/CMakeFiles/common_rout
 
 # fast build rule for target.
 common_routing_algorithms_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/build
 .PHONY : common_routing_algorithms_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/rule
 
 # Convenience name for target.
@@ -438,12 +438,12 @@ gadgetlib1_simple_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_t
 
 # fast build rule for target.
 gadgetlib1_simple_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build
 .PHONY : gadgetlib1_simple_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/rule
 
 # Convenience name for target.
@@ -452,12 +452,12 @@ gadgetlib1_fooram_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_t
 
 # fast build rule for target.
 gadgetlib1_fooram_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build
 .PHONY : gadgetlib1_fooram_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/rule
 
 # Convenience name for target.
@@ -466,12 +466,12 @@ gadgetlib1_r1cs_ppzksnark_verifier_gadget_test: depends/libsnark/libsnark/CMakeF
 
 # fast build rule for target.
 gadgetlib1_r1cs_ppzksnark_verifier_gadget_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/build
 .PHONY : gadgetlib1_r1cs_ppzksnark_verifier_gadget_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/rule
 
 # Convenience name for target.
@@ -480,12 +480,12 @@ gadgetlib2_adapters_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapte
 
 # fast build rule for target.
 gadgetlib2_adapters_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/build
 .PHONY : gadgetlib2_adapters_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/rule
 
 # Convenience name for target.
@@ -494,12 +494,12 @@ gadgetlib2_constraint_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib2_cons
 
 # fast build rule for target.
 gadgetlib2_constraint_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/build
 .PHONY : gadgetlib2_constraint_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/rule
 
 # Convenience name for target.
@@ -508,12 +508,12 @@ gadgetlib2_gadget_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_t
 
 # fast build rule for target.
 gadgetlib2_gadget_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/build
 .PHONY : gadgetlib2_gadget_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ gadgetlib2_integration_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib2_int
 
 # fast build rule for target.
 gadgetlib2_integration_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build
 .PHONY : gadgetlib2_integration_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/rule
 
 # Convenience name for target.
@@ -536,12 +536,12 @@ gadgetlib2_protoboard_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib2_prot
 
 # fast build rule for target.
 gadgetlib2_protoboard_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/build
 .PHONY : gadgetlib2_protoboard_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/rule
 
 # Convenience name for target.
@@ -550,12 +550,12 @@ gadgetlib2_variable_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variab
 
 # fast build rule for target.
 gadgetlib2_variable_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build
 .PHONY : gadgetlib2_variable_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/rule
 
 # Convenience name for target.
@@ -564,12 +564,12 @@ relations_qap_test: depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/
 
 # fast build rule for target.
 relations_qap_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/build
 .PHONY : relations_qap_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/rule
 
 # Convenience name for target.
@@ -578,12 +578,12 @@ relations_sap_test: depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/
 
 # fast build rule for target.
 relations_sap_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/build
 .PHONY : relations_sap_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/rule
 
 # Convenience name for target.
@@ -592,12 +592,12 @@ relations_ssp_test: depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/
 
 # fast build rule for target.
 relations_ssp_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/build
 .PHONY : relations_ssp_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/rule
 
 # Convenience name for target.
@@ -606,12 +606,12 @@ zk_proof_systems_r1cs_mp_ppzkpcd_test: depends/libsnark/libsnark/CMakeFiles/zk_p
 
 # fast build rule for target.
 zk_proof_systems_r1cs_mp_ppzkpcd_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/build
 .PHONY : zk_proof_systems_r1cs_mp_ppzkpcd_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/rule
 
 # Convenience name for target.
@@ -620,12 +620,12 @@ zk_proof_systems_r1cs_sp_ppzkpcd_test: depends/libsnark/libsnark/CMakeFiles/zk_p
 
 # fast build rule for target.
 zk_proof_systems_r1cs_sp_ppzkpcd_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build
 .PHONY : zk_proof_systems_r1cs_sp_ppzkpcd_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/rule
 
 # Convenience name for target.
@@ -634,12 +634,12 @@ zk_proof_systems_bacs_ppzksnark_test: depends/libsnark/libsnark/CMakeFiles/zk_pr
 
 # fast build rule for target.
 zk_proof_systems_bacs_ppzksnark_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build
 .PHONY : zk_proof_systems_bacs_ppzksnark_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/rule
 
 # Convenience name for target.
@@ -648,12 +648,12 @@ zk_proof_systems_r1cs_ppzksnark_test: depends/libsnark/libsnark/CMakeFiles/zk_pr
 
 # fast build rule for target.
 zk_proof_systems_r1cs_ppzksnark_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/build
 .PHONY : zk_proof_systems_r1cs_ppzksnark_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/rule
 
 # Convenience name for target.
@@ -662,12 +662,12 @@ zk_proof_systems_r1cs_se_ppzksnark_test: depends/libsnark/libsnark/CMakeFiles/zk
 
 # fast build rule for target.
 zk_proof_systems_r1cs_se_ppzksnark_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/build
 .PHONY : zk_proof_systems_r1cs_se_ppzksnark_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/rule
 
 # Convenience name for target.
@@ -676,12 +676,12 @@ zk_proof_systems_r1cs_gg_ppzksnark_test: depends/libsnark/libsnark/CMakeFiles/zk
 
 # fast build rule for target.
 zk_proof_systems_r1cs_gg_ppzksnark_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/build
 .PHONY : zk_proof_systems_r1cs_gg_ppzksnark_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/rule
 
 # Convenience name for target.
@@ -690,12 +690,12 @@ zk_proof_systems_ram_ppzksnark_test: depends/libsnark/libsnark/CMakeFiles/zk_pro
 
 # fast build rule for target.
 zk_proof_systems_ram_ppzksnark_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build
 .PHONY : zk_proof_systems_ram_ppzksnark_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/rule
 
 # Convenience name for target.
@@ -704,12 +704,12 @@ zk_proof_systems_tbcs_ppzksnark_test: depends/libsnark/libsnark/CMakeFiles/zk_pr
 
 # fast build rule for target.
 zk_proof_systems_tbcs_ppzksnark_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build
 .PHONY : zk_proof_systems_tbcs_ppzksnark_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/rule
 
 # Convenience name for target.
@@ -718,12 +718,12 @@ zk_proof_systems_uscs_ppzksnark_test: depends/libsnark/libsnark/CMakeFiles/zk_pr
 
 # fast build rule for target.
 zk_proof_systems_uscs_ppzksnark_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/build
 .PHONY : zk_proof_systems_uscs_ppzksnark_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/rule
 
 # Convenience name for target.
@@ -732,12 +732,12 @@ zk_proof_systems_ram_zksnark_test: depends/libsnark/libsnark/CMakeFiles/zk_proof
 
 # fast build rule for target.
 zk_proof_systems_ram_zksnark_test/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/build
 .PHONY : zk_proof_systems_ram_zksnark_test/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/rule
 
 # Convenience name for target.
@@ -746,12 +746,12 @@ test_knapsack_gadget: depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.
 
 # fast build rule for target.
 test_knapsack_gadget/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build
 .PHONY : test_knapsack_gadget/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/rule
 
 # Convenience name for target.
@@ -760,12 +760,12 @@ test_merkle_tree_gadgets: depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_
 
 # fast build rule for target.
 test_merkle_tree_gadgets/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/build
 .PHONY : test_merkle_tree_gadgets/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/rule
 
 # Convenience name for target.
@@ -774,12 +774,12 @@ test_set_commitment_gadget: depends/libsnark/libsnark/CMakeFiles/test_set_commit
 
 # fast build rule for target.
 test_set_commitment_gadget/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/build
 .PHONY : test_set_commitment_gadget/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/rule
 
 # Convenience name for target.
@@ -788,12 +788,12 @@ test_sha256_gadget: depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/
 
 # fast build rule for target.
 test_sha256_gadget/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build
 .PHONY : test_sha256_gadget/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/Experimental.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/Experimental.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/Experimental.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/Experimental.dir/rule
 
 # Convenience name for target.
@@ -802,12 +802,12 @@ Experimental: depends/libsnark/libsnark/CMakeFiles/Experimental.dir/rule
 
 # fast build rule for target.
 Experimental/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/Experimental.dir/build.make depends/libsnark/libsnark/CMakeFiles/Experimental.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/Experimental.dir/build.make depends/libsnark/libsnark/CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/Nightly.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/Nightly.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/Nightly.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/Nightly.dir/rule
 
 # Convenience name for target.
@@ -816,12 +816,12 @@ Nightly: depends/libsnark/libsnark/CMakeFiles/Nightly.dir/rule
 
 # fast build rule for target.
 Nightly/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/Nightly.dir/build.make depends/libsnark/libsnark/CMakeFiles/Nightly.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/Nightly.dir/build.make depends/libsnark/libsnark/CMakeFiles/Nightly.dir/build
 .PHONY : Nightly/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/Continuous.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/Continuous.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/Continuous.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/Continuous.dir/rule
 
 # Convenience name for target.
@@ -830,12 +830,12 @@ Continuous: depends/libsnark/libsnark/CMakeFiles/Continuous.dir/rule
 
 # fast build rule for target.
 Continuous/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/Continuous.dir/build.make depends/libsnark/libsnark/CMakeFiles/Continuous.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/Continuous.dir/build.make depends/libsnark/libsnark/CMakeFiles/Continuous.dir/build
 .PHONY : Continuous/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/NightlyMemoryCheck.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyMemoryCheck.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyMemoryCheck.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # Convenience name for target.
@@ -844,12 +844,12 @@ NightlyMemoryCheck: depends/libsnark/libsnark/CMakeFiles/NightlyMemoryCheck.dir/
 
 # fast build rule for target.
 NightlyMemoryCheck/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyMemoryCheck.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyMemoryCheck.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyMemoryCheck.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyMemoryCheck.dir/build
 .PHONY : NightlyMemoryCheck/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/NightlyStart.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyStart.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyStart.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyStart.dir/rule
 
 # Convenience name for target.
@@ -858,12 +858,12 @@ NightlyStart: depends/libsnark/libsnark/CMakeFiles/NightlyStart.dir/rule
 
 # fast build rule for target.
 NightlyStart/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyStart.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyStart.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyStart.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyStart.dir/build
 .PHONY : NightlyStart/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/NightlyUpdate.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyUpdate.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyUpdate.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyUpdate.dir/rule
 
 # Convenience name for target.
@@ -872,12 +872,12 @@ NightlyUpdate: depends/libsnark/libsnark/CMakeFiles/NightlyUpdate.dir/rule
 
 # fast build rule for target.
 NightlyUpdate/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyUpdate.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyUpdate.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyUpdate.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyUpdate.dir/build
 .PHONY : NightlyUpdate/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/rule
 
 # Convenience name for target.
@@ -886,12 +886,12 @@ NightlyConfigure: depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/rule
 
 # fast build rule for target.
 NightlyConfigure/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyConfigure.dir/build
 .PHONY : NightlyConfigure/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/NightlyBuild.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyBuild.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyBuild.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyBuild.dir/rule
 
 # Convenience name for target.
@@ -900,12 +900,12 @@ NightlyBuild: depends/libsnark/libsnark/CMakeFiles/NightlyBuild.dir/rule
 
 # fast build rule for target.
 NightlyBuild/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyBuild.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyBuild.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyBuild.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyBuild.dir/build
 .PHONY : NightlyBuild/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/rule
 
 # Convenience name for target.
@@ -914,12 +914,12 @@ NightlyTest: depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/rule
 
 # fast build rule for target.
 NightlyTest/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyTest.dir/build
 .PHONY : NightlyTest/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/rule
 
 # Convenience name for target.
@@ -928,12 +928,12 @@ NightlyCoverage: depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/rule
 
 # fast build rule for target.
 NightlyCoverage/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/build
 .PHONY : NightlyCoverage/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/NightlyMemCheck.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyMemCheck.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlyMemCheck.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyMemCheck.dir/rule
 
 # Convenience name for target.
@@ -942,12 +942,12 @@ NightlyMemCheck: depends/libsnark/libsnark/CMakeFiles/NightlyMemCheck.dir/rule
 
 # fast build rule for target.
 NightlyMemCheck/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyMemCheck.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyMemCheck.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlyMemCheck.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlyMemCheck.dir/build
 .PHONY : NightlyMemCheck/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/rule
 
 # Convenience name for target.
@@ -956,12 +956,12 @@ NightlySubmit: depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/rule
 
 # fast build rule for target.
 NightlySubmit/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/build.make depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/build
 .PHONY : NightlySubmit/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/rule
 
 # Convenience name for target.
@@ -970,12 +970,12 @@ ExperimentalStart: depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/ru
 
 # fast build rule for target.
 ExperimentalStart/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/build
 .PHONY : ExperimentalStart/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # Convenience name for target.
@@ -984,12 +984,12 @@ ExperimentalUpdate: depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/
 
 # fast build rule for target.
 ExperimentalUpdate/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/build
 .PHONY : ExperimentalUpdate/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ExperimentalConfigure.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalConfigure.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalConfigure.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # Convenience name for target.
@@ -998,12 +998,12 @@ ExperimentalConfigure: depends/libsnark/libsnark/CMakeFiles/ExperimentalConfigur
 
 # fast build rule for target.
 ExperimentalConfigure/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalConfigure.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalConfigure.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalConfigure.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalConfigure.dir/build
 .PHONY : ExperimentalConfigure/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/rule
 
 # Convenience name for target.
@@ -1012,12 +1012,12 @@ ExperimentalBuild: depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/ru
 
 # fast build rule for target.
 ExperimentalBuild/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalBuild.dir/build
 .PHONY : ExperimentalBuild/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ExperimentalTest.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalTest.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalTest.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalTest.dir/rule
 
 # Convenience name for target.
@@ -1026,12 +1026,12 @@ ExperimentalTest: depends/libsnark/libsnark/CMakeFiles/ExperimentalTest.dir/rule
 
 # fast build rule for target.
 ExperimentalTest/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalTest.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalTest.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalTest.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalTest.dir/build
 .PHONY : ExperimentalTest/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ExperimentalCoverage.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalCoverage.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalCoverage.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # Convenience name for target.
@@ -1040,12 +1040,12 @@ ExperimentalCoverage: depends/libsnark/libsnark/CMakeFiles/ExperimentalCoverage.
 
 # fast build rule for target.
 ExperimentalCoverage/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalCoverage.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalCoverage.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalCoverage.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalCoverage.dir/build
 .PHONY : ExperimentalCoverage/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ExperimentalMemCheck.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalMemCheck.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalMemCheck.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # Convenience name for target.
@@ -1054,12 +1054,12 @@ ExperimentalMemCheck: depends/libsnark/libsnark/CMakeFiles/ExperimentalMemCheck.
 
 # fast build rule for target.
 ExperimentalMemCheck/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalMemCheck.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalMemCheck.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalMemCheck.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalMemCheck.dir/build
 .PHONY : ExperimentalMemCheck/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ExperimentalSubmit.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalSubmit.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ExperimentalSubmit.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # Convenience name for target.
@@ -1068,12 +1068,12 @@ ExperimentalSubmit: depends/libsnark/libsnark/CMakeFiles/ExperimentalSubmit.dir/
 
 # fast build rule for target.
 ExperimentalSubmit/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalSubmit.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalSubmit.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ExperimentalSubmit.dir/build.make depends/libsnark/libsnark/CMakeFiles/ExperimentalSubmit.dir/build
 .PHONY : ExperimentalSubmit/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ContinuousStart.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousStart.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousStart.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousStart.dir/rule
 
 # Convenience name for target.
@@ -1082,12 +1082,12 @@ ContinuousStart: depends/libsnark/libsnark/CMakeFiles/ContinuousStart.dir/rule
 
 # fast build rule for target.
 ContinuousStart/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousStart.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousStart.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousStart.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousStart.dir/build
 .PHONY : ContinuousStart/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ContinuousUpdate.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousUpdate.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousUpdate.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousUpdate.dir/rule
 
 # Convenience name for target.
@@ -1096,12 +1096,12 @@ ContinuousUpdate: depends/libsnark/libsnark/CMakeFiles/ContinuousUpdate.dir/rule
 
 # fast build rule for target.
 ContinuousUpdate/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousUpdate.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousUpdate.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousUpdate.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousUpdate.dir/build
 .PHONY : ContinuousUpdate/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/rule
 
 # Convenience name for target.
@@ -1110,12 +1110,12 @@ ContinuousConfigure: depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.di
 
 # fast build rule for target.
 ContinuousConfigure/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousConfigure.dir/build
 .PHONY : ContinuousConfigure/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/rule
 
 # Convenience name for target.
@@ -1124,12 +1124,12 @@ ContinuousBuild: depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/rule
 
 # fast build rule for target.
 ContinuousBuild/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/build
 .PHONY : ContinuousBuild/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/rule
 
 # Convenience name for target.
@@ -1138,12 +1138,12 @@ ContinuousTest: depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/rule
 
 # fast build rule for target.
 ContinuousTest/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousTest.dir/build
 .PHONY : ContinuousTest/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ContinuousCoverage.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousCoverage.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousCoverage.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousCoverage.dir/rule
 
 # Convenience name for target.
@@ -1152,12 +1152,12 @@ ContinuousCoverage: depends/libsnark/libsnark/CMakeFiles/ContinuousCoverage.dir/
 
 # fast build rule for target.
 ContinuousCoverage/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousCoverage.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousCoverage.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousCoverage.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ContinuousMemCheck.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousMemCheck.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousMemCheck.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # Convenience name for target.
@@ -1166,12 +1166,12 @@ ContinuousMemCheck: depends/libsnark/libsnark/CMakeFiles/ContinuousMemCheck.dir/
 
 # fast build rule for target.
 ContinuousMemCheck/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousMemCheck.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousMemCheck.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousMemCheck.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousMemCheck.dir/build
 .PHONY : ContinuousMemCheck/fast
 
 # Convenience name for target.
 depends/libsnark/libsnark/CMakeFiles/ContinuousSubmit.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousSubmit.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/libsnark/CMakeFiles/ContinuousSubmit.dir/rule
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousSubmit.dir/rule
 
 # Convenience name for target.
@@ -1180,7 +1180,7 @@ ContinuousSubmit: depends/libsnark/libsnark/CMakeFiles/ContinuousSubmit.dir/rule
 
 # fast build rule for target.
 ContinuousSubmit/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousSubmit.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousSubmit.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/ContinuousSubmit.dir/build.make depends/libsnark/libsnark/CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
 common/data_structures/integer_permutation.o: common/data_structures/integer_permutation.cpp.o
@@ -1188,7 +1188,7 @@ common/data_structures/integer_permutation.o: common/data_structures/integer_per
 
 # target to build an object file
 common/data_structures/integer_permutation.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.o
 .PHONY : common/data_structures/integer_permutation.cpp.o
 
 common/data_structures/integer_permutation.i: common/data_structures/integer_permutation.cpp.i
@@ -1196,7 +1196,7 @@ common/data_structures/integer_permutation.i: common/data_structures/integer_per
 
 # target to preprocess a source file
 common/data_structures/integer_permutation.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.i
 .PHONY : common/data_structures/integer_permutation.cpp.i
 
 common/data_structures/integer_permutation.s: common/data_structures/integer_permutation.cpp.s
@@ -1204,7 +1204,7 @@ common/data_structures/integer_permutation.s: common/data_structures/integer_per
 
 # target to generate assembly for a file
 common/data_structures/integer_permutation.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/integer_permutation.cpp.s
 .PHONY : common/data_structures/integer_permutation.cpp.s
 
 common/data_structures/set_commitment.o: common/data_structures/set_commitment.cpp.o
@@ -1212,7 +1212,7 @@ common/data_structures/set_commitment.o: common/data_structures/set_commitment.c
 
 # target to build an object file
 common/data_structures/set_commitment.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.o
 .PHONY : common/data_structures/set_commitment.cpp.o
 
 common/data_structures/set_commitment.i: common/data_structures/set_commitment.cpp.i
@@ -1220,7 +1220,7 @@ common/data_structures/set_commitment.i: common/data_structures/set_commitment.c
 
 # target to preprocess a source file
 common/data_structures/set_commitment.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.i
 .PHONY : common/data_structures/set_commitment.cpp.i
 
 common/data_structures/set_commitment.s: common/data_structures/set_commitment.cpp.s
@@ -1228,7 +1228,7 @@ common/data_structures/set_commitment.s: common/data_structures/set_commitment.c
 
 # target to generate assembly for a file
 common/data_structures/set_commitment.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/data_structures/set_commitment.cpp.s
 .PHONY : common/data_structures/set_commitment.cpp.s
 
 common/default_types/r1cs_ppzkpcd_pp.o: common/default_types/r1cs_ppzkpcd_pp.cpp.o
@@ -1236,7 +1236,7 @@ common/default_types/r1cs_ppzkpcd_pp.o: common/default_types/r1cs_ppzkpcd_pp.cpp
 
 # target to build an object file
 common/default_types/r1cs_ppzkpcd_pp.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.o
 .PHONY : common/default_types/r1cs_ppzkpcd_pp.cpp.o
 
 common/default_types/r1cs_ppzkpcd_pp.i: common/default_types/r1cs_ppzkpcd_pp.cpp.i
@@ -1244,7 +1244,7 @@ common/default_types/r1cs_ppzkpcd_pp.i: common/default_types/r1cs_ppzkpcd_pp.cpp
 
 # target to preprocess a source file
 common/default_types/r1cs_ppzkpcd_pp.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.i
 .PHONY : common/default_types/r1cs_ppzkpcd_pp.cpp.i
 
 common/default_types/r1cs_ppzkpcd_pp.s: common/default_types/r1cs_ppzkpcd_pp.cpp.s
@@ -1252,7 +1252,7 @@ common/default_types/r1cs_ppzkpcd_pp.s: common/default_types/r1cs_ppzkpcd_pp.cpp
 
 # target to generate assembly for a file
 common/default_types/r1cs_ppzkpcd_pp.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/r1cs_ppzkpcd_pp.cpp.s
 .PHONY : common/default_types/r1cs_ppzkpcd_pp.cpp.s
 
 common/default_types/tinyram_ppzksnark_pp.o: common/default_types/tinyram_ppzksnark_pp.cpp.o
@@ -1260,7 +1260,7 @@ common/default_types/tinyram_ppzksnark_pp.o: common/default_types/tinyram_ppzksn
 
 # target to build an object file
 common/default_types/tinyram_ppzksnark_pp.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.o
 .PHONY : common/default_types/tinyram_ppzksnark_pp.cpp.o
 
 common/default_types/tinyram_ppzksnark_pp.i: common/default_types/tinyram_ppzksnark_pp.cpp.i
@@ -1268,7 +1268,7 @@ common/default_types/tinyram_ppzksnark_pp.i: common/default_types/tinyram_ppzksn
 
 # target to preprocess a source file
 common/default_types/tinyram_ppzksnark_pp.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.i
 .PHONY : common/default_types/tinyram_ppzksnark_pp.cpp.i
 
 common/default_types/tinyram_ppzksnark_pp.s: common/default_types/tinyram_ppzksnark_pp.cpp.s
@@ -1276,7 +1276,7 @@ common/default_types/tinyram_ppzksnark_pp.s: common/default_types/tinyram_ppzksn
 
 # target to generate assembly for a file
 common/default_types/tinyram_ppzksnark_pp.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_ppzksnark_pp.cpp.s
 .PHONY : common/default_types/tinyram_ppzksnark_pp.cpp.s
 
 common/default_types/tinyram_zksnark_pp.o: common/default_types/tinyram_zksnark_pp.cpp.o
@@ -1284,7 +1284,7 @@ common/default_types/tinyram_zksnark_pp.o: common/default_types/tinyram_zksnark_
 
 # target to build an object file
 common/default_types/tinyram_zksnark_pp.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.o
 .PHONY : common/default_types/tinyram_zksnark_pp.cpp.o
 
 common/default_types/tinyram_zksnark_pp.i: common/default_types/tinyram_zksnark_pp.cpp.i
@@ -1292,7 +1292,7 @@ common/default_types/tinyram_zksnark_pp.i: common/default_types/tinyram_zksnark_
 
 # target to preprocess a source file
 common/default_types/tinyram_zksnark_pp.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.i
 .PHONY : common/default_types/tinyram_zksnark_pp.cpp.i
 
 common/default_types/tinyram_zksnark_pp.s: common/default_types/tinyram_zksnark_pp.cpp.s
@@ -1300,7 +1300,7 @@ common/default_types/tinyram_zksnark_pp.s: common/default_types/tinyram_zksnark_
 
 # target to generate assembly for a file
 common/default_types/tinyram_zksnark_pp.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/default_types/tinyram_zksnark_pp.cpp.s
 .PHONY : common/default_types/tinyram_zksnark_pp.cpp.s
 
 common/routing_algorithms/as_waksman_routing_algorithm.o: common/routing_algorithms/as_waksman_routing_algorithm.cpp.o
@@ -1308,7 +1308,7 @@ common/routing_algorithms/as_waksman_routing_algorithm.o: common/routing_algorit
 
 # target to build an object file
 common/routing_algorithms/as_waksman_routing_algorithm.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.o
 .PHONY : common/routing_algorithms/as_waksman_routing_algorithm.cpp.o
 
 common/routing_algorithms/as_waksman_routing_algorithm.i: common/routing_algorithms/as_waksman_routing_algorithm.cpp.i
@@ -1316,7 +1316,7 @@ common/routing_algorithms/as_waksman_routing_algorithm.i: common/routing_algorit
 
 # target to preprocess a source file
 common/routing_algorithms/as_waksman_routing_algorithm.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.i
 .PHONY : common/routing_algorithms/as_waksman_routing_algorithm.cpp.i
 
 common/routing_algorithms/as_waksman_routing_algorithm.s: common/routing_algorithms/as_waksman_routing_algorithm.cpp.s
@@ -1324,7 +1324,7 @@ common/routing_algorithms/as_waksman_routing_algorithm.s: common/routing_algorit
 
 # target to generate assembly for a file
 common/routing_algorithms/as_waksman_routing_algorithm.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/as_waksman_routing_algorithm.cpp.s
 .PHONY : common/routing_algorithms/as_waksman_routing_algorithm.cpp.s
 
 common/routing_algorithms/benes_routing_algorithm.o: common/routing_algorithms/benes_routing_algorithm.cpp.o
@@ -1332,7 +1332,7 @@ common/routing_algorithms/benes_routing_algorithm.o: common/routing_algorithms/b
 
 # target to build an object file
 common/routing_algorithms/benes_routing_algorithm.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.o
 .PHONY : common/routing_algorithms/benes_routing_algorithm.cpp.o
 
 common/routing_algorithms/benes_routing_algorithm.i: common/routing_algorithms/benes_routing_algorithm.cpp.i
@@ -1340,7 +1340,7 @@ common/routing_algorithms/benes_routing_algorithm.i: common/routing_algorithms/b
 
 # target to preprocess a source file
 common/routing_algorithms/benes_routing_algorithm.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.i
 .PHONY : common/routing_algorithms/benes_routing_algorithm.cpp.i
 
 common/routing_algorithms/benes_routing_algorithm.s: common/routing_algorithms/benes_routing_algorithm.cpp.s
@@ -1348,7 +1348,7 @@ common/routing_algorithms/benes_routing_algorithm.s: common/routing_algorithms/b
 
 # target to generate assembly for a file
 common/routing_algorithms/benes_routing_algorithm.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/common/routing_algorithms/benes_routing_algorithm.cpp.s
 .PHONY : common/routing_algorithms/benes_routing_algorithm.cpp.s
 
 common/routing_algorithms/profiling/profile_routing_algorithms.o: common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o
@@ -1356,7 +1356,7 @@ common/routing_algorithms/profiling/profile_routing_algorithms.o: common/routing
 
 # target to build an object file
 common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o
 .PHONY : common/routing_algorithms/profiling/profile_routing_algorithms.cpp.o
 
 common/routing_algorithms/profiling/profile_routing_algorithms.i: common/routing_algorithms/profiling/profile_routing_algorithms.cpp.i
@@ -1364,7 +1364,7 @@ common/routing_algorithms/profiling/profile_routing_algorithms.i: common/routing
 
 # target to preprocess a source file
 common/routing_algorithms/profiling/profile_routing_algorithms.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.i
 .PHONY : common/routing_algorithms/profiling/profile_routing_algorithms.cpp.i
 
 common/routing_algorithms/profiling/profile_routing_algorithms.s: common/routing_algorithms/profiling/profile_routing_algorithms.cpp.s
@@ -1372,7 +1372,7 @@ common/routing_algorithms/profiling/profile_routing_algorithms.s: common/routing
 
 # target to generate assembly for a file
 common/routing_algorithms/profiling/profile_routing_algorithms.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_algorithms.dir/common/routing_algorithms/profiling/profile_routing_algorithms.cpp.s
 .PHONY : common/routing_algorithms/profiling/profile_routing_algorithms.cpp.s
 
 common/routing_algorithms/tests/test_routing_algorithms.o: common/routing_algorithms/tests/test_routing_algorithms.cpp.o
@@ -1380,7 +1380,7 @@ common/routing_algorithms/tests/test_routing_algorithms.o: common/routing_algori
 
 # target to build an object file
 common/routing_algorithms/tests/test_routing_algorithms.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/common/routing_algorithms/tests/test_routing_algorithms.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/common/routing_algorithms/tests/test_routing_algorithms.cpp.o
 .PHONY : common/routing_algorithms/tests/test_routing_algorithms.cpp.o
 
 common/routing_algorithms/tests/test_routing_algorithms.i: common/routing_algorithms/tests/test_routing_algorithms.cpp.i
@@ -1388,7 +1388,7 @@ common/routing_algorithms/tests/test_routing_algorithms.i: common/routing_algori
 
 # target to preprocess a source file
 common/routing_algorithms/tests/test_routing_algorithms.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/common/routing_algorithms/tests/test_routing_algorithms.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/common/routing_algorithms/tests/test_routing_algorithms.cpp.i
 .PHONY : common/routing_algorithms/tests/test_routing_algorithms.cpp.i
 
 common/routing_algorithms/tests/test_routing_algorithms.s: common/routing_algorithms/tests/test_routing_algorithms.cpp.s
@@ -1396,7 +1396,7 @@ common/routing_algorithms/tests/test_routing_algorithms.s: common/routing_algori
 
 # target to generate assembly for a file
 common/routing_algorithms/tests/test_routing_algorithms.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/common/routing_algorithms/tests/test_routing_algorithms.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/common_routing_algorithms_test.dir/common/routing_algorithms/tests/test_routing_algorithms.cpp.s
 .PHONY : common/routing_algorithms/tests/test_routing_algorithms.cpp.s
 
 gadgetlib1/constraint_profiling.o: gadgetlib1/constraint_profiling.cpp.o
@@ -1404,7 +1404,7 @@ gadgetlib1/constraint_profiling.o: gadgetlib1/constraint_profiling.cpp.o
 
 # target to build an object file
 gadgetlib1/constraint_profiling.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.o
 .PHONY : gadgetlib1/constraint_profiling.cpp.o
 
 gadgetlib1/constraint_profiling.i: gadgetlib1/constraint_profiling.cpp.i
@@ -1412,7 +1412,7 @@ gadgetlib1/constraint_profiling.i: gadgetlib1/constraint_profiling.cpp.i
 
 # target to preprocess a source file
 gadgetlib1/constraint_profiling.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.i
 .PHONY : gadgetlib1/constraint_profiling.cpp.i
 
 gadgetlib1/constraint_profiling.s: gadgetlib1/constraint_profiling.cpp.s
@@ -1420,7 +1420,7 @@ gadgetlib1/constraint_profiling.s: gadgetlib1/constraint_profiling.cpp.s
 
 # target to generate assembly for a file
 gadgetlib1/constraint_profiling.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib1/constraint_profiling.cpp.s
 .PHONY : gadgetlib1/constraint_profiling.cpp.s
 
 gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.o: gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o
@@ -1428,7 +1428,7 @@ gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.o: gadgetlib1/gadget
 
 # target to build an object file
 gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o
 .PHONY : gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.o
 
 gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.i: gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.i
@@ -1436,7 +1436,7 @@ gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.i: gadgetlib1/gadget
 
 # target to preprocess a source file
 gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.i
 .PHONY : gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.i
 
 gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.s: gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.s
@@ -1444,7 +1444,7 @@ gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.s: gadgetlib1/gadget
 
 # target to generate assembly for a file
 gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.s
 .PHONY : gadgetlib1/gadgets/cpu_checkers/fooram/examples/test_fooram.cpp.s
 
 gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.o: gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o
@@ -1452,7 +1452,7 @@ gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.o: gadgetlib1/gadg
 
 # target to build an object file
 gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o
 .PHONY : gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.o
 
 gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.i: gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.i
@@ -1460,7 +1460,7 @@ gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.i: gadgetlib1/gadg
 
 # target to preprocess a source file
 gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.i
 .PHONY : gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.i
 
 gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.s: gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.s
@@ -1468,7 +1468,7 @@ gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.s: gadgetlib1/gadg
 
 # target to generate assembly for a file
 gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_knapsack_gadget.dir/gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.s
 .PHONY : gadgetlib1/gadgets/hashes/knapsack/tests/test_knapsack_gadget.cpp.s
 
 gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.o: gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o
@@ -1476,7 +1476,7 @@ gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.o: gadgetlib1/gadgets/
 
 # target to build an object file
 gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o
 .PHONY : gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.o
 
 gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.i: gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i
@@ -1484,7 +1484,7 @@ gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.i: gadgetlib1/gadgets/
 
 # target to preprocess a source file
 gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i
 .PHONY : gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.i
 
 gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.s: gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s
@@ -1492,7 +1492,7 @@ gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.s: gadgetlib1/gadgets/
 
 # target to generate assembly for a file
 gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_sha256_gadget.dir/gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s
 .PHONY : gadgetlib1/gadgets/hashes/sha256/tests/test_sha256_gadget.cpp.s
 
 gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.o: gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o
@@ -1500,7 +1500,7 @@ gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.o: gadgetlib1/gadg
 
 # target to build an object file
 gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o
 .PHONY : gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.o
 
 gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.i: gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i
@@ -1508,7 +1508,7 @@ gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.i: gadgetlib1/gadg
 
 # target to preprocess a source file
 gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i
 .PHONY : gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.i
 
 gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.s: gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s
@@ -1516,7 +1516,7 @@ gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.s: gadgetlib1/gadg
 
 # target to generate assembly for a file
 gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s
 .PHONY : gadgetlib1/gadgets/merkle_tree/tests/test_merkle_tree_gadgets.cpp.s
 
 gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.o: gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.o
@@ -1524,7 +1524,7 @@ gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.o: gadgetlib1/gadge
 
 # target to build an object file
 gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.o
 .PHONY : gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.o
 
 gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.i: gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.i
@@ -1532,7 +1532,7 @@ gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.i: gadgetlib1/gadge
 
 # target to preprocess a source file
 gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.i
 .PHONY : gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.i
 
 gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.s: gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.s
@@ -1540,7 +1540,7 @@ gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.s: gadgetlib1/gadge
 
 # target to generate assembly for a file
 gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_routing_gadgets.dir/gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.s
 .PHONY : gadgetlib1/gadgets/routing/profiling/profile_routing_gadgets.cpp.s
 
 gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.o: gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.o
@@ -1548,7 +1548,7 @@ gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.o: gadgetlib1
 
 # target to build an object file
 gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.o
 .PHONY : gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.o
 
 gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.i: gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.i
@@ -1556,7 +1556,7 @@ gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.i: gadgetlib1
 
 # target to preprocess a source file
 gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.i
 .PHONY : gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.i
 
 gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.s: gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.s
@@ -1564,7 +1564,7 @@ gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.s: gadgetlib1
 
 # target to generate assembly for a file
 gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/build.make depends/libsnark/libsnark/CMakeFiles/test_set_commitment_gadget.dir/gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.s
 .PHONY : gadgetlib1/gadgets/set_commitment/tests/test_set_commitment_gadget.cpp.s
 
 gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.o: gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.o
@@ -1572,7 +1572,7 @@ gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.o: gadget
 
 # target to build an object file
 gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.o
 .PHONY : gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.o
 
 gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.i: gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.i
@@ -1580,7 +1580,7 @@ gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.i: gadget
 
 # target to preprocess a source file
 gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.i
 .PHONY : gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.i
 
 gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.s: gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.s
@@ -1588,7 +1588,7 @@ gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.s: gadget
 
 # target to generate assembly for a file
 gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.s
 .PHONY : gadgetlib1/gadgets/verifiers/tests/test_r1cs_ppzksnark_verifier_gadget.cpp.s
 
 gadgetlib1/tests/gadgetlib1_test.o: gadgetlib1/tests/gadgetlib1_test.cpp.o
@@ -1596,7 +1596,7 @@ gadgetlib1/tests/gadgetlib1_test.o: gadgetlib1/tests/gadgetlib1_test.cpp.o
 
 # target to build an object file
 gadgetlib1/tests/gadgetlib1_test.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o
 .PHONY : gadgetlib1/tests/gadgetlib1_test.cpp.o
 
 gadgetlib1/tests/gadgetlib1_test.i: gadgetlib1/tests/gadgetlib1_test.cpp.i
@@ -1604,7 +1604,7 @@ gadgetlib1/tests/gadgetlib1_test.i: gadgetlib1/tests/gadgetlib1_test.cpp.i
 
 # target to preprocess a source file
 gadgetlib1/tests/gadgetlib1_test.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.i
 .PHONY : gadgetlib1/tests/gadgetlib1_test.cpp.i
 
 gadgetlib1/tests/gadgetlib1_test.s: gadgetlib1/tests/gadgetlib1_test.cpp.s
@@ -1612,7 +1612,7 @@ gadgetlib1/tests/gadgetlib1_test.s: gadgetlib1/tests/gadgetlib1_test.cpp.s
 
 # target to generate assembly for a file
 gadgetlib1/tests/gadgetlib1_test.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.s
 .PHONY : gadgetlib1/tests/gadgetlib1_test.cpp.s
 
 gadgetlib2/adapters.o: gadgetlib2/adapters.cpp.o
@@ -1620,7 +1620,7 @@ gadgetlib2/adapters.o: gadgetlib2/adapters.cpp.o
 
 # target to build an object file
 gadgetlib2/adapters.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.o
 .PHONY : gadgetlib2/adapters.cpp.o
 
 gadgetlib2/adapters.i: gadgetlib2/adapters.cpp.i
@@ -1628,7 +1628,7 @@ gadgetlib2/adapters.i: gadgetlib2/adapters.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/adapters.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.i
 .PHONY : gadgetlib2/adapters.cpp.i
 
 gadgetlib2/adapters.s: gadgetlib2/adapters.cpp.s
@@ -1636,7 +1636,7 @@ gadgetlib2/adapters.s: gadgetlib2/adapters.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/adapters.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/adapters.cpp.s
 .PHONY : gadgetlib2/adapters.cpp.s
 
 gadgetlib2/constraint.o: gadgetlib2/constraint.cpp.o
@@ -1644,7 +1644,7 @@ gadgetlib2/constraint.o: gadgetlib2/constraint.cpp.o
 
 # target to build an object file
 gadgetlib2/constraint.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.o
 .PHONY : gadgetlib2/constraint.cpp.o
 
 gadgetlib2/constraint.i: gadgetlib2/constraint.cpp.i
@@ -1652,7 +1652,7 @@ gadgetlib2/constraint.i: gadgetlib2/constraint.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/constraint.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.i
 .PHONY : gadgetlib2/constraint.cpp.i
 
 gadgetlib2/constraint.s: gadgetlib2/constraint.cpp.s
@@ -1660,7 +1660,7 @@ gadgetlib2/constraint.s: gadgetlib2/constraint.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/constraint.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/constraint.cpp.s
 .PHONY : gadgetlib2/constraint.cpp.s
 
 gadgetlib2/examples/simple_example.o: gadgetlib2/examples/simple_example.cpp.o
@@ -1668,7 +1668,7 @@ gadgetlib2/examples/simple_example.o: gadgetlib2/examples/simple_example.cpp.o
 
 # target to build an object file
 gadgetlib2/examples/simple_example.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/examples/simple_example.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/examples/simple_example.cpp.o
 .PHONY : gadgetlib2/examples/simple_example.cpp.o
 
 gadgetlib2/examples/simple_example.i: gadgetlib2/examples/simple_example.cpp.i
@@ -1676,7 +1676,7 @@ gadgetlib2/examples/simple_example.i: gadgetlib2/examples/simple_example.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/examples/simple_example.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/examples/simple_example.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/examples/simple_example.cpp.i
 .PHONY : gadgetlib2/examples/simple_example.cpp.i
 
 gadgetlib2/examples/simple_example.s: gadgetlib2/examples/simple_example.cpp.s
@@ -1684,7 +1684,7 @@ gadgetlib2/examples/simple_example.s: gadgetlib2/examples/simple_example.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/examples/simple_example.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/examples/simple_example.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/examples/simple_example.cpp.s
 .PHONY : gadgetlib2/examples/simple_example.cpp.s
 
 gadgetlib2/gadget.o: gadgetlib2/gadget.cpp.o
@@ -1692,7 +1692,7 @@ gadgetlib2/gadget.o: gadgetlib2/gadget.cpp.o
 
 # target to build an object file
 gadgetlib2/gadget.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.o
 .PHONY : gadgetlib2/gadget.cpp.o
 
 gadgetlib2/gadget.i: gadgetlib2/gadget.cpp.i
@@ -1700,7 +1700,7 @@ gadgetlib2/gadget.i: gadgetlib2/gadget.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/gadget.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.i
 .PHONY : gadgetlib2/gadget.cpp.i
 
 gadgetlib2/gadget.s: gadgetlib2/gadget.cpp.s
@@ -1708,7 +1708,7 @@ gadgetlib2/gadget.s: gadgetlib2/gadget.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/gadget.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/gadget.cpp.s
 .PHONY : gadgetlib2/gadget.cpp.s
 
 gadgetlib2/infrastructure.o: gadgetlib2/infrastructure.cpp.o
@@ -1716,7 +1716,7 @@ gadgetlib2/infrastructure.o: gadgetlib2/infrastructure.cpp.o
 
 # target to build an object file
 gadgetlib2/infrastructure.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.o
 .PHONY : gadgetlib2/infrastructure.cpp.o
 
 gadgetlib2/infrastructure.i: gadgetlib2/infrastructure.cpp.i
@@ -1724,7 +1724,7 @@ gadgetlib2/infrastructure.i: gadgetlib2/infrastructure.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/infrastructure.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.i
 .PHONY : gadgetlib2/infrastructure.cpp.i
 
 gadgetlib2/infrastructure.s: gadgetlib2/infrastructure.cpp.s
@@ -1732,7 +1732,7 @@ gadgetlib2/infrastructure.s: gadgetlib2/infrastructure.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/infrastructure.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/infrastructure.cpp.s
 .PHONY : gadgetlib2/infrastructure.cpp.s
 
 gadgetlib2/integration.o: gadgetlib2/integration.cpp.o
@@ -1740,7 +1740,7 @@ gadgetlib2/integration.o: gadgetlib2/integration.cpp.o
 
 # target to build an object file
 gadgetlib2/integration.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.o
 .PHONY : gadgetlib2/integration.cpp.o
 
 gadgetlib2/integration.i: gadgetlib2/integration.cpp.i
@@ -1748,7 +1748,7 @@ gadgetlib2/integration.i: gadgetlib2/integration.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/integration.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.i
 .PHONY : gadgetlib2/integration.cpp.i
 
 gadgetlib2/integration.s: gadgetlib2/integration.cpp.s
@@ -1756,7 +1756,7 @@ gadgetlib2/integration.s: gadgetlib2/integration.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/integration.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/integration.cpp.s
 .PHONY : gadgetlib2/integration.cpp.s
 
 gadgetlib2/pp.o: gadgetlib2/pp.cpp.o
@@ -1764,7 +1764,7 @@ gadgetlib2/pp.o: gadgetlib2/pp.cpp.o
 
 # target to build an object file
 gadgetlib2/pp.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.o
 .PHONY : gadgetlib2/pp.cpp.o
 
 gadgetlib2/pp.i: gadgetlib2/pp.cpp.i
@@ -1772,7 +1772,7 @@ gadgetlib2/pp.i: gadgetlib2/pp.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/pp.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.i
 .PHONY : gadgetlib2/pp.cpp.i
 
 gadgetlib2/pp.s: gadgetlib2/pp.cpp.s
@@ -1780,7 +1780,7 @@ gadgetlib2/pp.s: gadgetlib2/pp.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/pp.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/pp.cpp.s
 .PHONY : gadgetlib2/pp.cpp.s
 
 gadgetlib2/protoboard.o: gadgetlib2/protoboard.cpp.o
@@ -1788,7 +1788,7 @@ gadgetlib2/protoboard.o: gadgetlib2/protoboard.cpp.o
 
 # target to build an object file
 gadgetlib2/protoboard.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.o
 .PHONY : gadgetlib2/protoboard.cpp.o
 
 gadgetlib2/protoboard.i: gadgetlib2/protoboard.cpp.i
@@ -1796,7 +1796,7 @@ gadgetlib2/protoboard.i: gadgetlib2/protoboard.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/protoboard.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.i
 .PHONY : gadgetlib2/protoboard.cpp.i
 
 gadgetlib2/protoboard.s: gadgetlib2/protoboard.cpp.s
@@ -1804,7 +1804,7 @@ gadgetlib2/protoboard.s: gadgetlib2/protoboard.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/protoboard.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/protoboard.cpp.s
 .PHONY : gadgetlib2/protoboard.cpp.s
 
 gadgetlib2/tests/adapters_UTEST.o: gadgetlib2/tests/adapters_UTEST.cpp.o
@@ -1812,7 +1812,7 @@ gadgetlib2/tests/adapters_UTEST.o: gadgetlib2/tests/adapters_UTEST.cpp.o
 
 # target to build an object file
 gadgetlib2/tests/adapters_UTEST.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/gadgetlib2/tests/adapters_UTEST.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/gadgetlib2/tests/adapters_UTEST.cpp.o
 .PHONY : gadgetlib2/tests/adapters_UTEST.cpp.o
 
 gadgetlib2/tests/adapters_UTEST.i: gadgetlib2/tests/adapters_UTEST.cpp.i
@@ -1820,7 +1820,7 @@ gadgetlib2/tests/adapters_UTEST.i: gadgetlib2/tests/adapters_UTEST.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/tests/adapters_UTEST.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/gadgetlib2/tests/adapters_UTEST.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/gadgetlib2/tests/adapters_UTEST.cpp.i
 .PHONY : gadgetlib2/tests/adapters_UTEST.cpp.i
 
 gadgetlib2/tests/adapters_UTEST.s: gadgetlib2/tests/adapters_UTEST.cpp.s
@@ -1828,7 +1828,7 @@ gadgetlib2/tests/adapters_UTEST.s: gadgetlib2/tests/adapters_UTEST.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/tests/adapters_UTEST.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/gadgetlib2/tests/adapters_UTEST.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/gadgetlib2/tests/adapters_UTEST.cpp.s
 .PHONY : gadgetlib2/tests/adapters_UTEST.cpp.s
 
 gadgetlib2/tests/constraint_UTEST.o: gadgetlib2/tests/constraint_UTEST.cpp.o
@@ -1836,7 +1836,7 @@ gadgetlib2/tests/constraint_UTEST.o: gadgetlib2/tests/constraint_UTEST.cpp.o
 
 # target to build an object file
 gadgetlib2/tests/constraint_UTEST.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/gadgetlib2/tests/constraint_UTEST.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/gadgetlib2/tests/constraint_UTEST.cpp.o
 .PHONY : gadgetlib2/tests/constraint_UTEST.cpp.o
 
 gadgetlib2/tests/constraint_UTEST.i: gadgetlib2/tests/constraint_UTEST.cpp.i
@@ -1844,7 +1844,7 @@ gadgetlib2/tests/constraint_UTEST.i: gadgetlib2/tests/constraint_UTEST.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/tests/constraint_UTEST.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/gadgetlib2/tests/constraint_UTEST.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/gadgetlib2/tests/constraint_UTEST.cpp.i
 .PHONY : gadgetlib2/tests/constraint_UTEST.cpp.i
 
 gadgetlib2/tests/constraint_UTEST.s: gadgetlib2/tests/constraint_UTEST.cpp.s
@@ -1852,7 +1852,7 @@ gadgetlib2/tests/constraint_UTEST.s: gadgetlib2/tests/constraint_UTEST.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/tests/constraint_UTEST.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/gadgetlib2/tests/constraint_UTEST.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/gadgetlib2/tests/constraint_UTEST.cpp.s
 .PHONY : gadgetlib2/tests/constraint_UTEST.cpp.s
 
 gadgetlib2/tests/gadget_UTEST.o: gadgetlib2/tests/gadget_UTEST.cpp.o
@@ -1860,7 +1860,7 @@ gadgetlib2/tests/gadget_UTEST.o: gadgetlib2/tests/gadget_UTEST.cpp.o
 
 # target to build an object file
 gadgetlib2/tests/gadget_UTEST.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/gadgetlib2/tests/gadget_UTEST.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/gadgetlib2/tests/gadget_UTEST.cpp.o
 .PHONY : gadgetlib2/tests/gadget_UTEST.cpp.o
 
 gadgetlib2/tests/gadget_UTEST.i: gadgetlib2/tests/gadget_UTEST.cpp.i
@@ -1868,7 +1868,7 @@ gadgetlib2/tests/gadget_UTEST.i: gadgetlib2/tests/gadget_UTEST.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/tests/gadget_UTEST.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/gadgetlib2/tests/gadget_UTEST.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/gadgetlib2/tests/gadget_UTEST.cpp.i
 .PHONY : gadgetlib2/tests/gadget_UTEST.cpp.i
 
 gadgetlib2/tests/gadget_UTEST.s: gadgetlib2/tests/gadget_UTEST.cpp.s
@@ -1876,7 +1876,7 @@ gadgetlib2/tests/gadget_UTEST.s: gadgetlib2/tests/gadget_UTEST.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/tests/gadget_UTEST.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/gadgetlib2/tests/gadget_UTEST.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/gadgetlib2/tests/gadget_UTEST.cpp.s
 .PHONY : gadgetlib2/tests/gadget_UTEST.cpp.s
 
 gadgetlib2/tests/integration_UTEST.o: gadgetlib2/tests/integration_UTEST.cpp.o
@@ -1884,7 +1884,7 @@ gadgetlib2/tests/integration_UTEST.o: gadgetlib2/tests/integration_UTEST.cpp.o
 
 # target to build an object file
 gadgetlib2/tests/integration_UTEST.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/tests/integration_UTEST.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/tests/integration_UTEST.cpp.o
 .PHONY : gadgetlib2/tests/integration_UTEST.cpp.o
 
 gadgetlib2/tests/integration_UTEST.i: gadgetlib2/tests/integration_UTEST.cpp.i
@@ -1892,7 +1892,7 @@ gadgetlib2/tests/integration_UTEST.i: gadgetlib2/tests/integration_UTEST.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/tests/integration_UTEST.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/tests/integration_UTEST.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/tests/integration_UTEST.cpp.i
 .PHONY : gadgetlib2/tests/integration_UTEST.cpp.i
 
 gadgetlib2/tests/integration_UTEST.s: gadgetlib2/tests/integration_UTEST.cpp.s
@@ -1900,7 +1900,7 @@ gadgetlib2/tests/integration_UTEST.s: gadgetlib2/tests/integration_UTEST.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/tests/integration_UTEST.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/tests/integration_UTEST.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/gadgetlib2/tests/integration_UTEST.cpp.s
 .PHONY : gadgetlib2/tests/integration_UTEST.cpp.s
 
 gadgetlib2/tests/protoboard_UTEST.o: gadgetlib2/tests/protoboard_UTEST.cpp.o
@@ -1908,7 +1908,7 @@ gadgetlib2/tests/protoboard_UTEST.o: gadgetlib2/tests/protoboard_UTEST.cpp.o
 
 # target to build an object file
 gadgetlib2/tests/protoboard_UTEST.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/gadgetlib2/tests/protoboard_UTEST.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/gadgetlib2/tests/protoboard_UTEST.cpp.o
 .PHONY : gadgetlib2/tests/protoboard_UTEST.cpp.o
 
 gadgetlib2/tests/protoboard_UTEST.i: gadgetlib2/tests/protoboard_UTEST.cpp.i
@@ -1916,7 +1916,7 @@ gadgetlib2/tests/protoboard_UTEST.i: gadgetlib2/tests/protoboard_UTEST.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/tests/protoboard_UTEST.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/gadgetlib2/tests/protoboard_UTEST.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/gadgetlib2/tests/protoboard_UTEST.cpp.i
 .PHONY : gadgetlib2/tests/protoboard_UTEST.cpp.i
 
 gadgetlib2/tests/protoboard_UTEST.s: gadgetlib2/tests/protoboard_UTEST.cpp.s
@@ -1924,7 +1924,7 @@ gadgetlib2/tests/protoboard_UTEST.s: gadgetlib2/tests/protoboard_UTEST.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/tests/protoboard_UTEST.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/gadgetlib2/tests/protoboard_UTEST.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/gadgetlib2/tests/protoboard_UTEST.cpp.s
 .PHONY : gadgetlib2/tests/protoboard_UTEST.cpp.s
 
 gadgetlib2/tests/variable_UTEST.o: gadgetlib2/tests/variable_UTEST.cpp.o
@@ -1932,7 +1932,7 @@ gadgetlib2/tests/variable_UTEST.o: gadgetlib2/tests/variable_UTEST.cpp.o
 
 # target to build an object file
 gadgetlib2/tests/variable_UTEST.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.o
 .PHONY : gadgetlib2/tests/variable_UTEST.cpp.o
 
 gadgetlib2/tests/variable_UTEST.i: gadgetlib2/tests/variable_UTEST.cpp.i
@@ -1940,7 +1940,7 @@ gadgetlib2/tests/variable_UTEST.i: gadgetlib2/tests/variable_UTEST.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/tests/variable_UTEST.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.i
 .PHONY : gadgetlib2/tests/variable_UTEST.cpp.i
 
 gadgetlib2/tests/variable_UTEST.s: gadgetlib2/tests/variable_UTEST.cpp.s
@@ -1948,7 +1948,7 @@ gadgetlib2/tests/variable_UTEST.s: gadgetlib2/tests/variable_UTEST.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/tests/variable_UTEST.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/gadgetlib2/tests/variable_UTEST.cpp.s
 .PHONY : gadgetlib2/tests/variable_UTEST.cpp.s
 
 gadgetlib2/variable.o: gadgetlib2/variable.cpp.o
@@ -1956,7 +1956,7 @@ gadgetlib2/variable.o: gadgetlib2/variable.cpp.o
 
 # target to build an object file
 gadgetlib2/variable.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.o
 .PHONY : gadgetlib2/variable.cpp.o
 
 gadgetlib2/variable.i: gadgetlib2/variable.cpp.i
@@ -1964,7 +1964,7 @@ gadgetlib2/variable.i: gadgetlib2/variable.cpp.i
 
 # target to preprocess a source file
 gadgetlib2/variable.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.i
 .PHONY : gadgetlib2/variable.cpp.i
 
 gadgetlib2/variable.s: gadgetlib2/variable.cpp.s
@@ -1972,7 +1972,7 @@ gadgetlib2/variable.s: gadgetlib2/variable.cpp.s
 
 # target to generate assembly for a file
 gadgetlib2/variable.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/gadgetlib2/variable.cpp.s
 .PHONY : gadgetlib2/variable.cpp.s
 
 reductions/ram_to_r1cs/examples/demo_arithmetization.o: reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o
@@ -1980,7 +1980,7 @@ reductions/ram_to_r1cs/examples/demo_arithmetization.o: reductions/ram_to_r1cs/e
 
 # target to build an object file
 reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o
 .PHONY : reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o
 
 reductions/ram_to_r1cs/examples/demo_arithmetization.i: reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.i
@@ -1988,7 +1988,7 @@ reductions/ram_to_r1cs/examples/demo_arithmetization.i: reductions/ram_to_r1cs/e
 
 # target to preprocess a source file
 reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.i
 .PHONY : reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.i
 
 reductions/ram_to_r1cs/examples/demo_arithmetization.s: reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.s
@@ -1996,7 +1996,7 @@ reductions/ram_to_r1cs/examples/demo_arithmetization.s: reductions/ram_to_r1cs/e
 
 # target to generate assembly for a file
 reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.s
 .PHONY : reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.s
 
 relations/arithmetic_programs/qap/tests/test_qap.o: relations/arithmetic_programs/qap/tests/test_qap.cpp.o
@@ -2004,7 +2004,7 @@ relations/arithmetic_programs/qap/tests/test_qap.o: relations/arithmetic_program
 
 # target to build an object file
 relations/arithmetic_programs/qap/tests/test_qap.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/relations/arithmetic_programs/qap/tests/test_qap.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/relations/arithmetic_programs/qap/tests/test_qap.cpp.o
 .PHONY : relations/arithmetic_programs/qap/tests/test_qap.cpp.o
 
 relations/arithmetic_programs/qap/tests/test_qap.i: relations/arithmetic_programs/qap/tests/test_qap.cpp.i
@@ -2012,7 +2012,7 @@ relations/arithmetic_programs/qap/tests/test_qap.i: relations/arithmetic_program
 
 # target to preprocess a source file
 relations/arithmetic_programs/qap/tests/test_qap.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/relations/arithmetic_programs/qap/tests/test_qap.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/relations/arithmetic_programs/qap/tests/test_qap.cpp.i
 .PHONY : relations/arithmetic_programs/qap/tests/test_qap.cpp.i
 
 relations/arithmetic_programs/qap/tests/test_qap.s: relations/arithmetic_programs/qap/tests/test_qap.cpp.s
@@ -2020,7 +2020,7 @@ relations/arithmetic_programs/qap/tests/test_qap.s: relations/arithmetic_program
 
 # target to generate assembly for a file
 relations/arithmetic_programs/qap/tests/test_qap.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/relations/arithmetic_programs/qap/tests/test_qap.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_qap_test.dir/relations/arithmetic_programs/qap/tests/test_qap.cpp.s
 .PHONY : relations/arithmetic_programs/qap/tests/test_qap.cpp.s
 
 relations/arithmetic_programs/sap/tests/test_sap.o: relations/arithmetic_programs/sap/tests/test_sap.cpp.o
@@ -2028,7 +2028,7 @@ relations/arithmetic_programs/sap/tests/test_sap.o: relations/arithmetic_program
 
 # target to build an object file
 relations/arithmetic_programs/sap/tests/test_sap.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/relations/arithmetic_programs/sap/tests/test_sap.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/relations/arithmetic_programs/sap/tests/test_sap.cpp.o
 .PHONY : relations/arithmetic_programs/sap/tests/test_sap.cpp.o
 
 relations/arithmetic_programs/sap/tests/test_sap.i: relations/arithmetic_programs/sap/tests/test_sap.cpp.i
@@ -2036,7 +2036,7 @@ relations/arithmetic_programs/sap/tests/test_sap.i: relations/arithmetic_program
 
 # target to preprocess a source file
 relations/arithmetic_programs/sap/tests/test_sap.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/relations/arithmetic_programs/sap/tests/test_sap.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/relations/arithmetic_programs/sap/tests/test_sap.cpp.i
 .PHONY : relations/arithmetic_programs/sap/tests/test_sap.cpp.i
 
 relations/arithmetic_programs/sap/tests/test_sap.s: relations/arithmetic_programs/sap/tests/test_sap.cpp.s
@@ -2044,7 +2044,7 @@ relations/arithmetic_programs/sap/tests/test_sap.s: relations/arithmetic_program
 
 # target to generate assembly for a file
 relations/arithmetic_programs/sap/tests/test_sap.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/relations/arithmetic_programs/sap/tests/test_sap.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_sap_test.dir/relations/arithmetic_programs/sap/tests/test_sap.cpp.s
 .PHONY : relations/arithmetic_programs/sap/tests/test_sap.cpp.s
 
 relations/arithmetic_programs/ssp/tests/test_ssp.o: relations/arithmetic_programs/ssp/tests/test_ssp.cpp.o
@@ -2052,7 +2052,7 @@ relations/arithmetic_programs/ssp/tests/test_ssp.o: relations/arithmetic_program
 
 # target to build an object file
 relations/arithmetic_programs/ssp/tests/test_ssp.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/relations/arithmetic_programs/ssp/tests/test_ssp.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/relations/arithmetic_programs/ssp/tests/test_ssp.cpp.o
 .PHONY : relations/arithmetic_programs/ssp/tests/test_ssp.cpp.o
 
 relations/arithmetic_programs/ssp/tests/test_ssp.i: relations/arithmetic_programs/ssp/tests/test_ssp.cpp.i
@@ -2060,7 +2060,7 @@ relations/arithmetic_programs/ssp/tests/test_ssp.i: relations/arithmetic_program
 
 # target to preprocess a source file
 relations/arithmetic_programs/ssp/tests/test_ssp.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/relations/arithmetic_programs/ssp/tests/test_ssp.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/relations/arithmetic_programs/ssp/tests/test_ssp.cpp.i
 .PHONY : relations/arithmetic_programs/ssp/tests/test_ssp.cpp.i
 
 relations/arithmetic_programs/ssp/tests/test_ssp.s: relations/arithmetic_programs/ssp/tests/test_ssp.cpp.s
@@ -2068,7 +2068,7 @@ relations/arithmetic_programs/ssp/tests/test_ssp.s: relations/arithmetic_program
 
 # target to generate assembly for a file
 relations/arithmetic_programs/ssp/tests/test_ssp.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/relations/arithmetic_programs/ssp/tests/test_ssp.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/relations_ssp_test.dir/relations/arithmetic_programs/ssp/tests/test_ssp.cpp.s
 .PHONY : relations/arithmetic_programs/ssp/tests/test_ssp.cpp.s
 
 relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.o: relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o
@@ -2076,8 +2076,8 @@ relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.o: relations
 
 # target to build an object file
 relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o
 .PHONY : relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.o
 
 relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.i: relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i
@@ -2085,8 +2085,8 @@ relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.i: relations
 
 # target to preprocess a source file
 relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i
 .PHONY : relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.i
 
 relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.s: relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s
@@ -2094,8 +2094,8 @@ relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.s: relations
 
 # target to generate assembly for a file
 relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s
 .PHONY : relations/circuit_satisfaction_problems/tbcs/examples/tbcs_examples.cpp.s
 
 relations/circuit_satisfaction_problems/tbcs/tbcs.o: relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o
@@ -2103,7 +2103,7 @@ relations/circuit_satisfaction_problems/tbcs/tbcs.o: relations/circuit_satisfact
 
 # target to build an object file
 relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o
 .PHONY : relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.o
 
 relations/circuit_satisfaction_problems/tbcs/tbcs.i: relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.i
@@ -2111,7 +2111,7 @@ relations/circuit_satisfaction_problems/tbcs/tbcs.i: relations/circuit_satisfact
 
 # target to preprocess a source file
 relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.i
 .PHONY : relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.i
 
 relations/circuit_satisfaction_problems/tbcs/tbcs.s: relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.s
@@ -2119,7 +2119,7 @@ relations/circuit_satisfaction_problems/tbcs/tbcs.s: relations/circuit_satisfact
 
 # target to generate assembly for a file
 relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.s
 .PHONY : relations/circuit_satisfaction_problems/tbcs/tbcs.cpp.s
 
 relations/ram_computations/memory/memory_store_trace.o: relations/ram_computations/memory/memory_store_trace.cpp.o
@@ -2127,7 +2127,7 @@ relations/ram_computations/memory/memory_store_trace.o: relations/ram_computatio
 
 # target to build an object file
 relations/ram_computations/memory/memory_store_trace.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.o
 .PHONY : relations/ram_computations/memory/memory_store_trace.cpp.o
 
 relations/ram_computations/memory/memory_store_trace.i: relations/ram_computations/memory/memory_store_trace.cpp.i
@@ -2135,7 +2135,7 @@ relations/ram_computations/memory/memory_store_trace.i: relations/ram_computatio
 
 # target to preprocess a source file
 relations/ram_computations/memory/memory_store_trace.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.i
 .PHONY : relations/ram_computations/memory/memory_store_trace.cpp.i
 
 relations/ram_computations/memory/memory_store_trace.s: relations/ram_computations/memory/memory_store_trace.cpp.s
@@ -2143,7 +2143,7 @@ relations/ram_computations/memory/memory_store_trace.s: relations/ram_computatio
 
 # target to generate assembly for a file
 relations/ram_computations/memory/memory_store_trace.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/memory_store_trace.cpp.s
 .PHONY : relations/ram_computations/memory/memory_store_trace.cpp.s
 
 relations/ram_computations/memory/ra_memory.o: relations/ram_computations/memory/ra_memory.cpp.o
@@ -2151,7 +2151,7 @@ relations/ram_computations/memory/ra_memory.o: relations/ram_computations/memory
 
 # target to build an object file
 relations/ram_computations/memory/ra_memory.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.o
 .PHONY : relations/ram_computations/memory/ra_memory.cpp.o
 
 relations/ram_computations/memory/ra_memory.i: relations/ram_computations/memory/ra_memory.cpp.i
@@ -2159,7 +2159,7 @@ relations/ram_computations/memory/ra_memory.i: relations/ram_computations/memory
 
 # target to preprocess a source file
 relations/ram_computations/memory/ra_memory.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.i
 .PHONY : relations/ram_computations/memory/ra_memory.cpp.i
 
 relations/ram_computations/memory/ra_memory.s: relations/ram_computations/memory/ra_memory.cpp.s
@@ -2167,7 +2167,7 @@ relations/ram_computations/memory/ra_memory.s: relations/ram_computations/memory
 
 # target to generate assembly for a file
 relations/ram_computations/memory/ra_memory.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/memory/ra_memory.cpp.s
 .PHONY : relations/ram_computations/memory/ra_memory.cpp.s
 
 relations/ram_computations/rams/fooram/fooram_aux.o: relations/ram_computations/rams/fooram/fooram_aux.cpp.o
@@ -2175,7 +2175,7 @@ relations/ram_computations/rams/fooram/fooram_aux.o: relations/ram_computations/
 
 # target to build an object file
 relations/ram_computations/rams/fooram/fooram_aux.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.o
 .PHONY : relations/ram_computations/rams/fooram/fooram_aux.cpp.o
 
 relations/ram_computations/rams/fooram/fooram_aux.i: relations/ram_computations/rams/fooram/fooram_aux.cpp.i
@@ -2183,7 +2183,7 @@ relations/ram_computations/rams/fooram/fooram_aux.i: relations/ram_computations/
 
 # target to preprocess a source file
 relations/ram_computations/rams/fooram/fooram_aux.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.i
 .PHONY : relations/ram_computations/rams/fooram/fooram_aux.cpp.i
 
 relations/ram_computations/rams/fooram/fooram_aux.s: relations/ram_computations/rams/fooram/fooram_aux.cpp.s
@@ -2191,7 +2191,7 @@ relations/ram_computations/rams/fooram/fooram_aux.s: relations/ram_computations/
 
 # target to generate assembly for a file
 relations/ram_computations/rams/fooram/fooram_aux.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/fooram/fooram_aux.cpp.s
 .PHONY : relations/ram_computations/rams/fooram/fooram_aux.cpp.s
 
 relations/ram_computations/rams/tinyram/tinyram_aux.o: relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o
@@ -2199,7 +2199,7 @@ relations/ram_computations/rams/tinyram/tinyram_aux.o: relations/ram_computation
 
 # target to build an object file
 relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o
 .PHONY : relations/ram_computations/rams/tinyram/tinyram_aux.cpp.o
 
 relations/ram_computations/rams/tinyram/tinyram_aux.i: relations/ram_computations/rams/tinyram/tinyram_aux.cpp.i
@@ -2207,7 +2207,7 @@ relations/ram_computations/rams/tinyram/tinyram_aux.i: relations/ram_computation
 
 # target to preprocess a source file
 relations/ram_computations/rams/tinyram/tinyram_aux.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.i
 .PHONY : relations/ram_computations/rams/tinyram/tinyram_aux.cpp.i
 
 relations/ram_computations/rams/tinyram/tinyram_aux.s: relations/ram_computations/rams/tinyram/tinyram_aux.cpp.s
@@ -2215,7 +2215,7 @@ relations/ram_computations/rams/tinyram/tinyram_aux.s: relations/ram_computation
 
 # target to generate assembly for a file
 relations/ram_computations/rams/tinyram/tinyram_aux.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/snark.dir/build.make depends/libsnark/libsnark/CMakeFiles/snark.dir/relations/ram_computations/rams/tinyram/tinyram_aux.cpp.s
 .PHONY : relations/ram_computations/rams/tinyram/tinyram_aux.cpp.s
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.o: zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.o
@@ -2223,7 +2223,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.
 
 # target to build an object file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.o
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.o
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.i: zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.i
@@ -2231,7 +2231,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.
 
 # target to preprocess a source file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.i
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.i
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.s: zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.s
@@ -2239,7 +2239,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.
 
 # target to generate assembly for a file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.s
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/profiling/profile_r1cs_mp_ppzkpcd.cpp.s
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.o: zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.o
@@ -2247,7 +2247,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.o: zk_p
 
 # target to build an object file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.o
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.o
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.i: zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.i
@@ -2255,7 +2255,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.i: zk_p
 
 # target to preprocess a source file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.i
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.i
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.s: zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.s
@@ -2263,7 +2263,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.s: zk_p
 
 # target to generate assembly for a file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.s
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_mp_ppzkpcd/tests/test_r1cs_mp_ppzkpcd.cpp.s
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.o: zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.o
@@ -2271,7 +2271,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.
 
 # target to build an object file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.o
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.o
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.i: zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.i
@@ -2279,7 +2279,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.
 
 # target to preprocess a source file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.i
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.i
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.s: zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.s
@@ -2287,7 +2287,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.
 
 # target to generate assembly for a file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.s
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/profiling/profile_r1cs_sp_ppzkpcd.cpp.s
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.o: zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.o
@@ -2295,7 +2295,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.o: zk_p
 
 # target to build an object file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.o
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.o
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.i: zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.i
@@ -2303,7 +2303,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.i: zk_p
 
 # target to preprocess a source file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.i
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.i
 
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.s: zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.s
@@ -2311,7 +2311,7 @@ zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.s: zk_p
 
 # target to generate assembly for a file
 zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.s
 .PHONY : zk_proof_systems/pcd/r1cs_pcd/r1cs_sp_ppzkpcd/tests/test_r1cs_sp_ppzkpcd.cpp.s
 
 zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.o: zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.o
@@ -2319,7 +2319,7 @@ zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.o: zk
 
 # target to build an object file
 zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.i: zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.i
@@ -2327,7 +2327,7 @@ zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.i: zk
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.s: zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.s
@@ -2335,7 +2335,7 @@ zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.s: zk
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/bacs_ppzksnark/profiling/profile_bacs_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.o: zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.o
@@ -2343,7 +2343,7 @@ zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.o: zk_proof_
 
 # target to build an object file
 zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.i: zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.i
@@ -2351,7 +2351,7 @@ zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.i: zk_proof_
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.s: zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.s
@@ -2359,7 +2359,7 @@ zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.s: zk_proof_
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/bacs_ppzksnark/tests/test_bacs_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.o: zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.o
@@ -2367,7 +2367,7 @@ zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark
 
 # target to build an object file
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.i: zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.i
@@ -2375,7 +2375,7 @@ zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.s: zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.s
@@ -2383,7 +2383,7 @@ zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/profiling/profile_r1cs_gg_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.o: zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.o
@@ -2391,7 +2391,7 @@ zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.o: zk_
 
 # target to build an object file
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.i: zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.i
@@ -2399,7 +2399,7 @@ zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.i: zk_
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.s: zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.s
@@ -2407,7 +2407,7 @@ zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.s: zk_
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/tests/test_r1cs_gg_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.o: zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o
@@ -2415,7 +2415,7 @@ zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.o: zk
 
 # target to build an object file
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.i: zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.i
@@ -2423,7 +2423,7 @@ zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.i: zk
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.s: zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.s
@@ -2431,7 +2431,7 @@ zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.s: zk
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/r1cs_ppzksnark/profiling/profile_r1cs_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.o: zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o
@@ -2439,7 +2439,7 @@ zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.o: zk_proof_
 
 # target to build an object file
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.i: zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i
@@ -2447,7 +2447,7 @@ zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.i: zk_proof_
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.s: zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s
@@ -2455,7 +2455,7 @@ zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.s: zk_proof_
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/r1cs_ppzksnark/tests/test_r1cs_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.o: zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.o
@@ -2463,7 +2463,7 @@ zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark
 
 # target to build an object file
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.i: zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.i
@@ -2471,7 +2471,7 @@ zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.s: zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.s
@@ -2479,7 +2479,7 @@ zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/profiling/profile_r1cs_se_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.o: zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.o
@@ -2487,7 +2487,7 @@ zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.o: zk_
 
 # target to build an object file
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.i: zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.i
@@ -2495,7 +2495,7 @@ zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.i: zk_
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.s: zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.s
@@ -2503,7 +2503,7 @@ zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.s: zk_
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/r1cs_se_ppzksnark/tests/test_r1cs_se_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.o: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o
@@ -2511,7 +2511,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.o: zk_proof
 
 # target to build an object file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.i: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.i
@@ -2519,7 +2519,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.i: zk_proof
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.s: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.s
@@ -2527,7 +2527,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.s: zk_proof
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.o: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.o
@@ -2535,7 +2535,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.o
 
 # target to build an object file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.o
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.i: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.i
@@ -2543,7 +2543,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.i
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.i
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.s: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.s
@@ -2551,7 +2551,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.s
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_generator.cpp.s
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.o: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.o
@@ -2559,7 +2559,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.o: z
 
 # target to build an object file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.o
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.i: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.i
@@ -2567,7 +2567,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.i: z
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.i
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.s: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.s
@@ -2575,7 +2575,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.s: z
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_prover.cpp.s
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.o: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.o
@@ -2583,7 +2583,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.o:
 
 # target to build an object file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.o
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.i: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.i
@@ -2591,7 +2591,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.i:
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.i
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.s: zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.s
@@ -2599,7 +2599,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.s:
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/build.make depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark_verifier.cpp.s
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.o: zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.o
@@ -2607,7 +2607,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.o: zk_p
 
 # target to build an object file
 zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.i: zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.i
@@ -2615,7 +2615,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.i: zk_p
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.s: zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.s
@@ -2623,7 +2623,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.s: zk_p
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/profiling/profile_ram_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.o: zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.o
@@ -2631,7 +2631,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.o: zk_proof_sy
 
 # target to build an object file
 zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.i: zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.i
@@ -2639,7 +2639,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.i: zk_proof_sy
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.s: zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.s
@@ -2647,7 +2647,7 @@ zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.s: zk_proof_sy
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/ram_ppzksnark/tests/test_ram_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.o: zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o
@@ -2655,7 +2655,7 @@ zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.o: zk
 
 # target to build an object file
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.i: zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.i
@@ -2663,7 +2663,7 @@ zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.i: zk
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.s: zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.s
@@ -2671,7 +2671,7 @@ zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.s: zk
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/tbcs_ppzksnark/profiling/profile_tbcs_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.o: zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.o
@@ -2679,7 +2679,7 @@ zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.o: zk_proof_
 
 # target to build an object file
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.i: zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.i
@@ -2687,7 +2687,7 @@ zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.i: zk_proof_
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.s: zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.s
@@ -2695,7 +2695,7 @@ zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.s: zk_proof_
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/tbcs_ppzksnark/tests/test_tbcs_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.o: zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.o
@@ -2703,7 +2703,7 @@ zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.o: zk
 
 # target to build an object file
 zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.i: zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.i
@@ -2711,7 +2711,7 @@ zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.i: zk
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.s: zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.s
@@ -2719,7 +2719,7 @@ zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.s: zk
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/uscs_ppzksnark/profiling/profile_uscs_ppzksnark.cpp.s
 
 zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.o: zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.o
@@ -2727,7 +2727,7 @@ zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.o: zk_proof_
 
 # target to build an object file
 zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.o
 .PHONY : zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.o
 
 zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.i: zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.i
@@ -2735,7 +2735,7 @@ zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.i: zk_proof_
 
 # target to preprocess a source file
 zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.i
 .PHONY : zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.i
 
 zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.s: zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.s
@@ -2743,7 +2743,7 @@ zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.s: zk_proof_
 
 # target to generate assembly for a file
 zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.s
 .PHONY : zk_proof_systems/ppzksnark/uscs_ppzksnark/tests/test_uscs_ppzksnark.cpp.s
 
 zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.o: zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.o
@@ -2751,7 +2751,7 @@ zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.o: zk_proof_s
 
 # target to build an object file
 zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.o
 .PHONY : zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.o
 
 zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.i: zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.i
@@ -2759,7 +2759,7 @@ zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.i: zk_proof_s
 
 # target to preprocess a source file
 zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.i
 .PHONY : zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.i
 
 zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.s: zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.s
@@ -2767,7 +2767,7 @@ zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.s: zk_proof_s
 
 # target to generate assembly for a file
 zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/build.make depends/libsnark/libsnark/CMakeFiles/profile_ram_zksnark.dir/zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.s
 .PHONY : zk_proof_systems/zksnark/ram_zksnark/profiling/profile_ram_zksnark.cpp.s
 
 zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.o: zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.o
@@ -2775,7 +2775,7 @@ zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.o: zk_proof_systems/
 
 # target to build an object file
 zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.o
 .PHONY : zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.o
 
 zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.i: zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.i
@@ -2783,7 +2783,7 @@ zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.i: zk_proof_systems/
 
 # target to preprocess a source file
 zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.i
 .PHONY : zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.i
 
 zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.s: zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.s
@@ -2791,7 +2791,7 @@ zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.s: zk_proof_systems/
 
 # target to generate assembly for a file
 zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/build.make depends/libsnark/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.s
 .PHONY : zk_proof_systems/zksnark/ram_zksnark/tests/test_ram_zksnark.cpp.s
 
 # Help Target
@@ -3091,6 +3091,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

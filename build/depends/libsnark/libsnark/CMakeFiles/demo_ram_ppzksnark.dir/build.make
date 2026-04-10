@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/depend.make
@@ -73,18 +73,18 @@ depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/codegen:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/codegen
 
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o: depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/flags.make
-depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o: /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp
+depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o: /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o: depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/abhijatsharma/privacy_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o -MF CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o.d -o CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o -c /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/classroomservices/Documents/CS6413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o"
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o -MF CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o.d -o CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.o -c /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp
 
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.i"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp > CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp > CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.s"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp -o CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp -o CMakeFiles/demo_ram_ppzksnark.dir/zk_proof_systems/ppzksnark/ram_ppzksnark/examples/demo_ram_ppzksnark.cpp.s
 
 # Object files for target demo_ram_ppzksnark
 demo_ram_ppzksnark_OBJECTS = \
@@ -103,18 +103,18 @@ depends/libsnark/libsnark/demo_ram_ppzksnark: /opt/homebrew/lib/libgmp.dylib
 depends/libsnark/libsnark/demo_ram_ppzksnark: /opt/homebrew/lib/libgmpxx.dylib
 depends/libsnark/libsnark/demo_ram_ppzksnark: /opt/homebrew/lib/libboost_container.dylib
 depends/libsnark/libsnark/demo_ram_ppzksnark: depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/abhijatsharma/privacy_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable demo_ram_ppzksnark"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_ram_ppzksnark.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/classroomservices/Documents/CS6413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable demo_ram_ppzksnark"
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_ram_ppzksnark.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build: depends/libsnark/libsnark/demo_ram_ppzksnark
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/clean:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/demo_ram_ppzksnark.dir/cmake_clean.cmake
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/demo_ram_ppzksnark.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abhijatsharma/privacy_project /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/DependInfo.cmake "--color=$(COLOR)" demo_ram_ppzksnark
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/classroomservices/Documents/CS6413 /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/DependInfo.cmake "--color=$(COLOR)" demo_ram_ppzksnark
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/depend
 

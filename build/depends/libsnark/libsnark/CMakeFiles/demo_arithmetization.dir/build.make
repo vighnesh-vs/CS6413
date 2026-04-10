@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/depend.make
@@ -73,18 +73,18 @@ depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/codegen:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/codegen
 
 depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o: depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/flags.make
-depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o: /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp
+depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o: /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp
 depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o: depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/abhijatsharma/privacy_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o -MF CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o.d -o CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o -c /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/classroomservices/Documents/CS6413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o"
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o -MF CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o.d -o CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.o -c /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp
 
 depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.i"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp > CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp > CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.s"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp -o CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp -o CMakeFiles/demo_arithmetization.dir/reductions/ram_to_r1cs/examples/demo_arithmetization.cpp.s
 
 # Object files for target demo_arithmetization
 demo_arithmetization_OBJECTS = \
@@ -103,18 +103,18 @@ depends/libsnark/libsnark/demo_arithmetization: /opt/homebrew/lib/libgmp.dylib
 depends/libsnark/libsnark/demo_arithmetization: /opt/homebrew/lib/libgmpxx.dylib
 depends/libsnark/libsnark/demo_arithmetization: /opt/homebrew/lib/libboost_container.dylib
 depends/libsnark/libsnark/demo_arithmetization: depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/abhijatsharma/privacy_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable demo_arithmetization"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_arithmetization.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/classroomservices/Documents/CS6413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable demo_arithmetization"
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_arithmetization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build: depends/libsnark/libsnark/demo_arithmetization
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/clean:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/demo_arithmetization.dir/cmake_clean.cmake
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/demo_arithmetization.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abhijatsharma/privacy_project /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/DependInfo.cmake "--color=$(COLOR)" demo_arithmetization
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/classroomservices/Documents/CS6413 /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/DependInfo.cmake "--color=$(COLOR)" demo_arithmetization
 .PHONY : depends/libsnark/libsnark/CMakeFiles/demo_arithmetization.dir/depend
 

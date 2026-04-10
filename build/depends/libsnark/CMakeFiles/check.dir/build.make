@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 # Utility rule file for check.
 
@@ -67,7 +67,7 @@ include depends/libsnark/CMakeFiles/check.dir/compiler_depend.make
 include depends/libsnark/CMakeFiles/check.dir/progress.make
 
 depends/libsnark/CMakeFiles/check:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark && /opt/homebrew/bin/ctest
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark && /opt/homebrew/bin/ctest
 
 depends/libsnark/CMakeFiles/check.dir/codegen:
 .PHONY : depends/libsnark/CMakeFiles/check.dir/codegen
@@ -81,10 +81,10 @@ depends/libsnark/CMakeFiles/check.dir/build: check
 .PHONY : depends/libsnark/CMakeFiles/check.dir/build
 
 depends/libsnark/CMakeFiles/check.dir/clean:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/CMakeFiles/check.dir/clean
 
 depends/libsnark/CMakeFiles/check.dir/depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abhijatsharma/privacy_project /Users/abhijatsharma/privacy_project/depends/libsnark /Users/abhijatsharma/privacy_project/build /Users/abhijatsharma/privacy_project/build/depends/libsnark /Users/abhijatsharma/privacy_project/build/depends/libsnark/CMakeFiles/check.dir/DependInfo.cmake "--color=$(COLOR)" check
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/classroomservices/Documents/CS6413 /Users/classroomservices/Documents/CS6413/depends/libsnark /Users/classroomservices/Documents/CS6413/build /Users/classroomservices/Documents/CS6413/build/depends/libsnark /Users/classroomservices/Documents/CS6413/build/depends/libsnark/CMakeFiles/check.dir/DependInfo.cmake "--color=$(COLOR)" check
 .PHONY : depends/libsnark/CMakeFiles/check.dir/depend
 

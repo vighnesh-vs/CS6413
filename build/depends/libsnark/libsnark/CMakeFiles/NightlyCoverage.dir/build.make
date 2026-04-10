@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 # Utility rule file for NightlyCoverage.
 
@@ -67,7 +67,7 @@ include depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/compiler_depend
 include depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/progress.make
 
 depends/libsnark/libsnark/CMakeFiles/NightlyCoverage:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /opt/homebrew/bin/ctest -DMODEL=Nightly -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /opt/homebrew/bin/ctest -DMODEL=Nightly -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V
 
 depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/codegen:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/codegen
@@ -81,10 +81,10 @@ depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/build: NightlyCoverage
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/clean:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/NightlyCoverage.dir/cmake_clean.cmake
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/NightlyCoverage.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abhijatsharma/privacy_project /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake "--color=$(COLOR)" NightlyCoverage
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/classroomservices/Documents/CS6413 /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake "--color=$(COLOR)" NightlyCoverage
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlyCoverage.dir/depend
 

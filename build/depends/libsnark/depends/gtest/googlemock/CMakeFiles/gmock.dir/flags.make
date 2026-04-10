@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBINARY_OUTPUT -DCURVE_ALT_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS
 
-CXX_INCLUDES = -I/Users/abhijatsharma/privacy_project/. -I/opt/homebrew/include -I/Users/abhijatsharma/privacy_project/depends/libsnark/. -I/Users/abhijatsharma/privacy_project/depends/libsnark/depends/gtest/googlemock/include -I/Users/abhijatsharma/privacy_project/depends/libsnark/depends/gtest/googlemock -I/Users/abhijatsharma/privacy_project/depends/libsnark/depends/gtest/googletest -isystem /Users/abhijatsharma/privacy_project/depends/libsnark/depends/gtest/googletest/include
+CXX_INCLUDES = -I/Users/classroomservices/Documents/CS6413/. -I/opt/homebrew/include -I/Users/classroomservices/Documents/CS6413/depends/libsnark/. -I/Users/classroomservices/Documents/CS6413/depends/libsnark/depends/gtest/googlemock/include -I/Users/classroomservices/Documents/CS6413/depends/libsnark/depends/gtest/googlemock -I/Users/classroomservices/Documents/CS6413/depends/libsnark/depends/gtest/googletest -isystem /Users/classroomservices/Documents/CS6413/depends/libsnark/depends/gtest/googletest/include
 
 CXX_FLAGSarm64 = -O2 -g -DNDEBUG -std=gnu++11 -arch arm64     -DGTEST_HAS_PTHREAD=1  
 

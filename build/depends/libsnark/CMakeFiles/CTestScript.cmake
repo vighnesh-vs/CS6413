@@ -2,11 +2,11 @@
 # If you choose not to use CMake, this file may be hand configured, by
 # filling in the required variables.
 
-cmake_minimum_required(VERSION 4.3.0)
+cmake_minimum_required(VERSION 4.3.1)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "/Users/abhijatsharma/privacy_project/depends/libsnark")
-set(CTEST_BINARY_DIRECTORY "/Users/abhijatsharma/privacy_project/build/depends/libsnark")
+set(CTEST_SOURCE_DIRECTORY "/Users/classroomservices/Documents/CS6413/depends/libsnark")
+set(CTEST_BINARY_DIRECTORY "/Users/classroomservices/Documents/CS6413/build/depends/libsnark")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "")
@@ -61,7 +61,7 @@ set(CTEST_MEMORYCHECK_SANITIZER_OPTIONS "")
 set(CTEST_MEMORYCHECK_SUPPRESSIONS_FILE "")
 
 # CTest Submit Step
-set(CTEST_SITE "MacBookAir")
+set(CTEST_SITE "UNB-DW5TL4LVC2")
 set(CTEST_BUILD_NAME "Darwin-c++")
 set(CTEST_SUBMIT_URL "http://")
 set(CTEST_SUBMIT_INACTIVITY_TIMEOUT "")

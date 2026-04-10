@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCURVE_ALT_BN128 -DNO_PROCPS
 
-CXX_INCLUDES = -I/Users/abhijatsharma/privacy_project/. -I/Users/abhijatsharma/privacy_project/src/. -I/Users/abhijatsharma/privacy_project/depends/libsnark -I/Users/abhijatsharma/privacy_project/depends/libsnark/depends/libfqfft -I/Users/abhijatsharma/privacy_project/depends/libff -I/Users/abhijatsharma/privacy_project/depends/libfqfft -I/Users/abhijatsharma/privacy_project/depends/libsnark/depends/libff/libff/.. -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/classroomservices/Documents/CS6413/. -I/Users/classroomservices/Documents/CS6413/src/. -I/Users/classroomservices/Documents/CS6413/depends/libsnark -I/Users/classroomservices/Documents/CS6413/depends/libsnark/depends/libfqfft -I/Users/classroomservices/Documents/CS6413/depends/libff -I/Users/classroomservices/Documents/CS6413/depends/libfqfft -I/Users/classroomservices/Documents/CS6413/depends/libsnark/depends/libff/libff/.. -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -O2 -g -DNDEBUG -std=gnu++11 -arch arm64
 

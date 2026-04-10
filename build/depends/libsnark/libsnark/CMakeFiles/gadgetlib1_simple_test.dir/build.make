@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 # Include any dependencies generated for this target.
 include depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/depend.make
@@ -73,18 +73,18 @@ depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/codegen:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/codegen
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o: depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/flags.make
-depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o: /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/gadgetlib1/tests/gadgetlib1_test.cpp
+depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o: /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/gadgetlib1/tests/gadgetlib1_test.cpp
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o: depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/abhijatsharma/privacy_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o -MF CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o.d -o CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o -c /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/gadgetlib1/tests/gadgetlib1_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/classroomservices/Documents/CS6413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o"
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o -MF CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o.d -o CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.o -c /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/gadgetlib1/tests/gadgetlib1_test.cpp
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.i"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/gadgetlib1/tests/gadgetlib1_test.cpp > CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/gadgetlib1/tests/gadgetlib1_test.cpp > CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.i
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.s"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark/gadgetlib1/tests/gadgetlib1_test.cpp -o CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark/gadgetlib1/tests/gadgetlib1_test.cpp -o CMakeFiles/gadgetlib1_simple_test.dir/gadgetlib1/tests/gadgetlib1_test.cpp.s
 
 # Object files for target gadgetlib1_simple_test
 gadgetlib1_simple_test_OBJECTS = \
@@ -103,18 +103,18 @@ depends/libsnark/libsnark/gadgetlib1_simple_test: /opt/homebrew/lib/libgmp.dylib
 depends/libsnark/libsnark/gadgetlib1_simple_test: /opt/homebrew/lib/libgmpxx.dylib
 depends/libsnark/libsnark/gadgetlib1_simple_test: depends/libsnark/depends/gtest/googlemock/gtest/libgtest.a
 depends/libsnark/libsnark/gadgetlib1_simple_test: depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/abhijatsharma/privacy_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gadgetlib1_simple_test"
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gadgetlib1_simple_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/classroomservices/Documents/CS6413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gadgetlib1_simple_test"
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gadgetlib1_simple_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build: depends/libsnark/libsnark/gadgetlib1_simple_test
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/clean:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/gadgetlib1_simple_test.dir/cmake_clean.cmake
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/gadgetlib1_simple_test.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abhijatsharma/privacy_project /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/DependInfo.cmake "--color=$(COLOR)" gadgetlib1_simple_test
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/classroomservices/Documents/CS6413 /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/DependInfo.cmake "--color=$(COLOR)" gadgetlib1_simple_test
 .PHONY : depends/libsnark/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/depend
 

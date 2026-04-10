@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/abhijatsharma/privacy_project/build/CMakeFiles /Users/abhijatsharma/privacy_project/build/depends/libsnark/depends/libff/libff//CMakeFiles/progress.marks
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/depends/libff/libff/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/abhijatsharma/privacy_project/build/CMakeFiles 0
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/classroomservices/Documents/CS6413/build/CMakeFiles /Users/classroomservices/Documents/CS6413/build/depends/libsnark/depends/libff/libff//CMakeFiles/progress.marks
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/depends/libff/libff/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/classroomservices/Documents/CS6413/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/depends/libff/libff/clean
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/depends/libff/libff/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/depends/libff/libff/preinstall
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/depends/libff/libff/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/depends/libff/libff/preinstall
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/depends/libff/libff/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/rule:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/rule
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/rule
 .PHONY : depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ ff: depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/rule
 
 # fast build rule for target.
 ff/fast:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build
 .PHONY : ff/fast
 
 algebra/curves/alt_bn128/alt_bn128_g1.o: algebra/curves/alt_bn128/alt_bn128_g1.cpp.o
@@ -180,7 +180,7 @@ algebra/curves/alt_bn128/alt_bn128_g1.o: algebra/curves/alt_bn128/alt_bn128_g1.c
 
 # target to build an object file
 algebra/curves/alt_bn128/alt_bn128_g1.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o
 .PHONY : algebra/curves/alt_bn128/alt_bn128_g1.cpp.o
 
 algebra/curves/alt_bn128/alt_bn128_g1.i: algebra/curves/alt_bn128/alt_bn128_g1.cpp.i
@@ -188,7 +188,7 @@ algebra/curves/alt_bn128/alt_bn128_g1.i: algebra/curves/alt_bn128/alt_bn128_g1.c
 
 # target to preprocess a source file
 algebra/curves/alt_bn128/alt_bn128_g1.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.i
 .PHONY : algebra/curves/alt_bn128/alt_bn128_g1.cpp.i
 
 algebra/curves/alt_bn128/alt_bn128_g1.s: algebra/curves/alt_bn128/alt_bn128_g1.cpp.s
@@ -196,7 +196,7 @@ algebra/curves/alt_bn128/alt_bn128_g1.s: algebra/curves/alt_bn128/alt_bn128_g1.c
 
 # target to generate assembly for a file
 algebra/curves/alt_bn128/alt_bn128_g1.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.s
 .PHONY : algebra/curves/alt_bn128/alt_bn128_g1.cpp.s
 
 algebra/curves/alt_bn128/alt_bn128_g2.o: algebra/curves/alt_bn128/alt_bn128_g2.cpp.o
@@ -204,7 +204,7 @@ algebra/curves/alt_bn128/alt_bn128_g2.o: algebra/curves/alt_bn128/alt_bn128_g2.c
 
 # target to build an object file
 algebra/curves/alt_bn128/alt_bn128_g2.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o
 .PHONY : algebra/curves/alt_bn128/alt_bn128_g2.cpp.o
 
 algebra/curves/alt_bn128/alt_bn128_g2.i: algebra/curves/alt_bn128/alt_bn128_g2.cpp.i
@@ -212,7 +212,7 @@ algebra/curves/alt_bn128/alt_bn128_g2.i: algebra/curves/alt_bn128/alt_bn128_g2.c
 
 # target to preprocess a source file
 algebra/curves/alt_bn128/alt_bn128_g2.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.i
 .PHONY : algebra/curves/alt_bn128/alt_bn128_g2.cpp.i
 
 algebra/curves/alt_bn128/alt_bn128_g2.s: algebra/curves/alt_bn128/alt_bn128_g2.cpp.s
@@ -220,7 +220,7 @@ algebra/curves/alt_bn128/alt_bn128_g2.s: algebra/curves/alt_bn128/alt_bn128_g2.c
 
 # target to generate assembly for a file
 algebra/curves/alt_bn128/alt_bn128_g2.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.s
 .PHONY : algebra/curves/alt_bn128/alt_bn128_g2.cpp.s
 
 algebra/curves/alt_bn128/alt_bn128_init.o: algebra/curves/alt_bn128/alt_bn128_init.cpp.o
@@ -228,7 +228,7 @@ algebra/curves/alt_bn128/alt_bn128_init.o: algebra/curves/alt_bn128/alt_bn128_in
 
 # target to build an object file
 algebra/curves/alt_bn128/alt_bn128_init.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o
 .PHONY : algebra/curves/alt_bn128/alt_bn128_init.cpp.o
 
 algebra/curves/alt_bn128/alt_bn128_init.i: algebra/curves/alt_bn128/alt_bn128_init.cpp.i
@@ -236,7 +236,7 @@ algebra/curves/alt_bn128/alt_bn128_init.i: algebra/curves/alt_bn128/alt_bn128_in
 
 # target to preprocess a source file
 algebra/curves/alt_bn128/alt_bn128_init.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.i
 .PHONY : algebra/curves/alt_bn128/alt_bn128_init.cpp.i
 
 algebra/curves/alt_bn128/alt_bn128_init.s: algebra/curves/alt_bn128/alt_bn128_init.cpp.s
@@ -244,7 +244,7 @@ algebra/curves/alt_bn128/alt_bn128_init.s: algebra/curves/alt_bn128/alt_bn128_in
 
 # target to generate assembly for a file
 algebra/curves/alt_bn128/alt_bn128_init.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.s
 .PHONY : algebra/curves/alt_bn128/alt_bn128_init.cpp.s
 
 algebra/curves/alt_bn128/alt_bn128_pairing.o: algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o
@@ -252,7 +252,7 @@ algebra/curves/alt_bn128/alt_bn128_pairing.o: algebra/curves/alt_bn128/alt_bn128
 
 # target to build an object file
 algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o
 .PHONY : algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o
 
 algebra/curves/alt_bn128/alt_bn128_pairing.i: algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i
@@ -260,7 +260,7 @@ algebra/curves/alt_bn128/alt_bn128_pairing.i: algebra/curves/alt_bn128/alt_bn128
 
 # target to preprocess a source file
 algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i
 .PHONY : algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i
 
 algebra/curves/alt_bn128/alt_bn128_pairing.s: algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s
@@ -268,7 +268,7 @@ algebra/curves/alt_bn128/alt_bn128_pairing.s: algebra/curves/alt_bn128/alt_bn128
 
 # target to generate assembly for a file
 algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s
 .PHONY : algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s
 
 algebra/curves/alt_bn128/alt_bn128_pp.o: algebra/curves/alt_bn128/alt_bn128_pp.cpp.o
@@ -276,7 +276,7 @@ algebra/curves/alt_bn128/alt_bn128_pp.o: algebra/curves/alt_bn128/alt_bn128_pp.c
 
 # target to build an object file
 algebra/curves/alt_bn128/alt_bn128_pp.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o
 .PHONY : algebra/curves/alt_bn128/alt_bn128_pp.cpp.o
 
 algebra/curves/alt_bn128/alt_bn128_pp.i: algebra/curves/alt_bn128/alt_bn128_pp.cpp.i
@@ -284,7 +284,7 @@ algebra/curves/alt_bn128/alt_bn128_pp.i: algebra/curves/alt_bn128/alt_bn128_pp.c
 
 # target to preprocess a source file
 algebra/curves/alt_bn128/alt_bn128_pp.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.i
 .PHONY : algebra/curves/alt_bn128/alt_bn128_pp.cpp.i
 
 algebra/curves/alt_bn128/alt_bn128_pp.s: algebra/curves/alt_bn128/alt_bn128_pp.cpp.s
@@ -292,7 +292,7 @@ algebra/curves/alt_bn128/alt_bn128_pp.s: algebra/curves/alt_bn128/alt_bn128_pp.c
 
 # target to generate assembly for a file
 algebra/curves/alt_bn128/alt_bn128_pp.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s
 .PHONY : algebra/curves/alt_bn128/alt_bn128_pp.cpp.s
 
 algebra/curves/edwards/edwards_g1.o: algebra/curves/edwards/edwards_g1.cpp.o
@@ -300,7 +300,7 @@ algebra/curves/edwards/edwards_g1.o: algebra/curves/edwards/edwards_g1.cpp.o
 
 # target to build an object file
 algebra/curves/edwards/edwards_g1.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o
 .PHONY : algebra/curves/edwards/edwards_g1.cpp.o
 
 algebra/curves/edwards/edwards_g1.i: algebra/curves/edwards/edwards_g1.cpp.i
@@ -308,7 +308,7 @@ algebra/curves/edwards/edwards_g1.i: algebra/curves/edwards/edwards_g1.cpp.i
 
 # target to preprocess a source file
 algebra/curves/edwards/edwards_g1.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.i
 .PHONY : algebra/curves/edwards/edwards_g1.cpp.i
 
 algebra/curves/edwards/edwards_g1.s: algebra/curves/edwards/edwards_g1.cpp.s
@@ -316,7 +316,7 @@ algebra/curves/edwards/edwards_g1.s: algebra/curves/edwards/edwards_g1.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/edwards/edwards_g1.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.s
 .PHONY : algebra/curves/edwards/edwards_g1.cpp.s
 
 algebra/curves/edwards/edwards_g2.o: algebra/curves/edwards/edwards_g2.cpp.o
@@ -324,7 +324,7 @@ algebra/curves/edwards/edwards_g2.o: algebra/curves/edwards/edwards_g2.cpp.o
 
 # target to build an object file
 algebra/curves/edwards/edwards_g2.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o
 .PHONY : algebra/curves/edwards/edwards_g2.cpp.o
 
 algebra/curves/edwards/edwards_g2.i: algebra/curves/edwards/edwards_g2.cpp.i
@@ -332,7 +332,7 @@ algebra/curves/edwards/edwards_g2.i: algebra/curves/edwards/edwards_g2.cpp.i
 
 # target to preprocess a source file
 algebra/curves/edwards/edwards_g2.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.i
 .PHONY : algebra/curves/edwards/edwards_g2.cpp.i
 
 algebra/curves/edwards/edwards_g2.s: algebra/curves/edwards/edwards_g2.cpp.s
@@ -340,7 +340,7 @@ algebra/curves/edwards/edwards_g2.s: algebra/curves/edwards/edwards_g2.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/edwards/edwards_g2.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.s
 .PHONY : algebra/curves/edwards/edwards_g2.cpp.s
 
 algebra/curves/edwards/edwards_init.o: algebra/curves/edwards/edwards_init.cpp.o
@@ -348,7 +348,7 @@ algebra/curves/edwards/edwards_init.o: algebra/curves/edwards/edwards_init.cpp.o
 
 # target to build an object file
 algebra/curves/edwards/edwards_init.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o
 .PHONY : algebra/curves/edwards/edwards_init.cpp.o
 
 algebra/curves/edwards/edwards_init.i: algebra/curves/edwards/edwards_init.cpp.i
@@ -356,7 +356,7 @@ algebra/curves/edwards/edwards_init.i: algebra/curves/edwards/edwards_init.cpp.i
 
 # target to preprocess a source file
 algebra/curves/edwards/edwards_init.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.i
 .PHONY : algebra/curves/edwards/edwards_init.cpp.i
 
 algebra/curves/edwards/edwards_init.s: algebra/curves/edwards/edwards_init.cpp.s
@@ -364,7 +364,7 @@ algebra/curves/edwards/edwards_init.s: algebra/curves/edwards/edwards_init.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/edwards/edwards_init.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.s
 .PHONY : algebra/curves/edwards/edwards_init.cpp.s
 
 algebra/curves/edwards/edwards_pairing.o: algebra/curves/edwards/edwards_pairing.cpp.o
@@ -372,7 +372,7 @@ algebra/curves/edwards/edwards_pairing.o: algebra/curves/edwards/edwards_pairing
 
 # target to build an object file
 algebra/curves/edwards/edwards_pairing.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o
 .PHONY : algebra/curves/edwards/edwards_pairing.cpp.o
 
 algebra/curves/edwards/edwards_pairing.i: algebra/curves/edwards/edwards_pairing.cpp.i
@@ -380,7 +380,7 @@ algebra/curves/edwards/edwards_pairing.i: algebra/curves/edwards/edwards_pairing
 
 # target to preprocess a source file
 algebra/curves/edwards/edwards_pairing.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.i
 .PHONY : algebra/curves/edwards/edwards_pairing.cpp.i
 
 algebra/curves/edwards/edwards_pairing.s: algebra/curves/edwards/edwards_pairing.cpp.s
@@ -388,7 +388,7 @@ algebra/curves/edwards/edwards_pairing.s: algebra/curves/edwards/edwards_pairing
 
 # target to generate assembly for a file
 algebra/curves/edwards/edwards_pairing.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.s
 .PHONY : algebra/curves/edwards/edwards_pairing.cpp.s
 
 algebra/curves/edwards/edwards_pp.o: algebra/curves/edwards/edwards_pp.cpp.o
@@ -396,7 +396,7 @@ algebra/curves/edwards/edwards_pp.o: algebra/curves/edwards/edwards_pp.cpp.o
 
 # target to build an object file
 algebra/curves/edwards/edwards_pp.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o
 .PHONY : algebra/curves/edwards/edwards_pp.cpp.o
 
 algebra/curves/edwards/edwards_pp.i: algebra/curves/edwards/edwards_pp.cpp.i
@@ -404,7 +404,7 @@ algebra/curves/edwards/edwards_pp.i: algebra/curves/edwards/edwards_pp.cpp.i
 
 # target to preprocess a source file
 algebra/curves/edwards/edwards_pp.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.i
 .PHONY : algebra/curves/edwards/edwards_pp.cpp.i
 
 algebra/curves/edwards/edwards_pp.s: algebra/curves/edwards/edwards_pp.cpp.s
@@ -412,7 +412,7 @@ algebra/curves/edwards/edwards_pp.s: algebra/curves/edwards/edwards_pp.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/edwards/edwards_pp.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.s
 .PHONY : algebra/curves/edwards/edwards_pp.cpp.s
 
 algebra/curves/mnt/mnt4/mnt4_g1.o: algebra/curves/mnt/mnt4/mnt4_g1.cpp.o
@@ -420,7 +420,7 @@ algebra/curves/mnt/mnt4/mnt4_g1.o: algebra/curves/mnt/mnt4/mnt4_g1.cpp.o
 
 # target to build an object file
 algebra/curves/mnt/mnt4/mnt4_g1.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o
 .PHONY : algebra/curves/mnt/mnt4/mnt4_g1.cpp.o
 
 algebra/curves/mnt/mnt4/mnt4_g1.i: algebra/curves/mnt/mnt4/mnt4_g1.cpp.i
@@ -428,7 +428,7 @@ algebra/curves/mnt/mnt4/mnt4_g1.i: algebra/curves/mnt/mnt4/mnt4_g1.cpp.i
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt4/mnt4_g1.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.i
 .PHONY : algebra/curves/mnt/mnt4/mnt4_g1.cpp.i
 
 algebra/curves/mnt/mnt4/mnt4_g1.s: algebra/curves/mnt/mnt4/mnt4_g1.cpp.s
@@ -436,7 +436,7 @@ algebra/curves/mnt/mnt4/mnt4_g1.s: algebra/curves/mnt/mnt4/mnt4_g1.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt4/mnt4_g1.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.s
 .PHONY : algebra/curves/mnt/mnt4/mnt4_g1.cpp.s
 
 algebra/curves/mnt/mnt4/mnt4_g2.o: algebra/curves/mnt/mnt4/mnt4_g2.cpp.o
@@ -444,7 +444,7 @@ algebra/curves/mnt/mnt4/mnt4_g2.o: algebra/curves/mnt/mnt4/mnt4_g2.cpp.o
 
 # target to build an object file
 algebra/curves/mnt/mnt4/mnt4_g2.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o
 .PHONY : algebra/curves/mnt/mnt4/mnt4_g2.cpp.o
 
 algebra/curves/mnt/mnt4/mnt4_g2.i: algebra/curves/mnt/mnt4/mnt4_g2.cpp.i
@@ -452,7 +452,7 @@ algebra/curves/mnt/mnt4/mnt4_g2.i: algebra/curves/mnt/mnt4/mnt4_g2.cpp.i
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt4/mnt4_g2.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.i
 .PHONY : algebra/curves/mnt/mnt4/mnt4_g2.cpp.i
 
 algebra/curves/mnt/mnt4/mnt4_g2.s: algebra/curves/mnt/mnt4/mnt4_g2.cpp.s
@@ -460,7 +460,7 @@ algebra/curves/mnt/mnt4/mnt4_g2.s: algebra/curves/mnt/mnt4/mnt4_g2.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt4/mnt4_g2.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.s
 .PHONY : algebra/curves/mnt/mnt4/mnt4_g2.cpp.s
 
 algebra/curves/mnt/mnt4/mnt4_init.o: algebra/curves/mnt/mnt4/mnt4_init.cpp.o
@@ -468,7 +468,7 @@ algebra/curves/mnt/mnt4/mnt4_init.o: algebra/curves/mnt/mnt4/mnt4_init.cpp.o
 
 # target to build an object file
 algebra/curves/mnt/mnt4/mnt4_init.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o
 .PHONY : algebra/curves/mnt/mnt4/mnt4_init.cpp.o
 
 algebra/curves/mnt/mnt4/mnt4_init.i: algebra/curves/mnt/mnt4/mnt4_init.cpp.i
@@ -476,7 +476,7 @@ algebra/curves/mnt/mnt4/mnt4_init.i: algebra/curves/mnt/mnt4/mnt4_init.cpp.i
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt4/mnt4_init.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.i
 .PHONY : algebra/curves/mnt/mnt4/mnt4_init.cpp.i
 
 algebra/curves/mnt/mnt4/mnt4_init.s: algebra/curves/mnt/mnt4/mnt4_init.cpp.s
@@ -484,7 +484,7 @@ algebra/curves/mnt/mnt4/mnt4_init.s: algebra/curves/mnt/mnt4/mnt4_init.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt4/mnt4_init.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.s
 .PHONY : algebra/curves/mnt/mnt4/mnt4_init.cpp.s
 
 algebra/curves/mnt/mnt4/mnt4_pairing.o: algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o
@@ -492,7 +492,7 @@ algebra/curves/mnt/mnt4/mnt4_pairing.o: algebra/curves/mnt/mnt4/mnt4_pairing.cpp
 
 # target to build an object file
 algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o
 .PHONY : algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o
 
 algebra/curves/mnt/mnt4/mnt4_pairing.i: algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i
@@ -500,7 +500,7 @@ algebra/curves/mnt/mnt4/mnt4_pairing.i: algebra/curves/mnt/mnt4/mnt4_pairing.cpp
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i
 .PHONY : algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i
 
 algebra/curves/mnt/mnt4/mnt4_pairing.s: algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s
@@ -508,7 +508,7 @@ algebra/curves/mnt/mnt4/mnt4_pairing.s: algebra/curves/mnt/mnt4/mnt4_pairing.cpp
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s
 .PHONY : algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s
 
 algebra/curves/mnt/mnt4/mnt4_pp.o: algebra/curves/mnt/mnt4/mnt4_pp.cpp.o
@@ -516,7 +516,7 @@ algebra/curves/mnt/mnt4/mnt4_pp.o: algebra/curves/mnt/mnt4/mnt4_pp.cpp.o
 
 # target to build an object file
 algebra/curves/mnt/mnt4/mnt4_pp.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o
 .PHONY : algebra/curves/mnt/mnt4/mnt4_pp.cpp.o
 
 algebra/curves/mnt/mnt4/mnt4_pp.i: algebra/curves/mnt/mnt4/mnt4_pp.cpp.i
@@ -524,7 +524,7 @@ algebra/curves/mnt/mnt4/mnt4_pp.i: algebra/curves/mnt/mnt4/mnt4_pp.cpp.i
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt4/mnt4_pp.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.i
 .PHONY : algebra/curves/mnt/mnt4/mnt4_pp.cpp.i
 
 algebra/curves/mnt/mnt4/mnt4_pp.s: algebra/curves/mnt/mnt4/mnt4_pp.cpp.s
@@ -532,7 +532,7 @@ algebra/curves/mnt/mnt4/mnt4_pp.s: algebra/curves/mnt/mnt4/mnt4_pp.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt4/mnt4_pp.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.s
 .PHONY : algebra/curves/mnt/mnt4/mnt4_pp.cpp.s
 
 algebra/curves/mnt/mnt46_common.o: algebra/curves/mnt/mnt46_common.cpp.o
@@ -540,7 +540,7 @@ algebra/curves/mnt/mnt46_common.o: algebra/curves/mnt/mnt46_common.cpp.o
 
 # target to build an object file
 algebra/curves/mnt/mnt46_common.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o
 .PHONY : algebra/curves/mnt/mnt46_common.cpp.o
 
 algebra/curves/mnt/mnt46_common.i: algebra/curves/mnt/mnt46_common.cpp.i
@@ -548,7 +548,7 @@ algebra/curves/mnt/mnt46_common.i: algebra/curves/mnt/mnt46_common.cpp.i
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt46_common.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.i
 .PHONY : algebra/curves/mnt/mnt46_common.cpp.i
 
 algebra/curves/mnt/mnt46_common.s: algebra/curves/mnt/mnt46_common.cpp.s
@@ -556,7 +556,7 @@ algebra/curves/mnt/mnt46_common.s: algebra/curves/mnt/mnt46_common.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt46_common.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.s
 .PHONY : algebra/curves/mnt/mnt46_common.cpp.s
 
 algebra/curves/mnt/mnt6/mnt6_g1.o: algebra/curves/mnt/mnt6/mnt6_g1.cpp.o
@@ -564,7 +564,7 @@ algebra/curves/mnt/mnt6/mnt6_g1.o: algebra/curves/mnt/mnt6/mnt6_g1.cpp.o
 
 # target to build an object file
 algebra/curves/mnt/mnt6/mnt6_g1.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o
 .PHONY : algebra/curves/mnt/mnt6/mnt6_g1.cpp.o
 
 algebra/curves/mnt/mnt6/mnt6_g1.i: algebra/curves/mnt/mnt6/mnt6_g1.cpp.i
@@ -572,7 +572,7 @@ algebra/curves/mnt/mnt6/mnt6_g1.i: algebra/curves/mnt/mnt6/mnt6_g1.cpp.i
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt6/mnt6_g1.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.i
 .PHONY : algebra/curves/mnt/mnt6/mnt6_g1.cpp.i
 
 algebra/curves/mnt/mnt6/mnt6_g1.s: algebra/curves/mnt/mnt6/mnt6_g1.cpp.s
@@ -580,7 +580,7 @@ algebra/curves/mnt/mnt6/mnt6_g1.s: algebra/curves/mnt/mnt6/mnt6_g1.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt6/mnt6_g1.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.s
 .PHONY : algebra/curves/mnt/mnt6/mnt6_g1.cpp.s
 
 algebra/curves/mnt/mnt6/mnt6_g2.o: algebra/curves/mnt/mnt6/mnt6_g2.cpp.o
@@ -588,7 +588,7 @@ algebra/curves/mnt/mnt6/mnt6_g2.o: algebra/curves/mnt/mnt6/mnt6_g2.cpp.o
 
 # target to build an object file
 algebra/curves/mnt/mnt6/mnt6_g2.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o
 .PHONY : algebra/curves/mnt/mnt6/mnt6_g2.cpp.o
 
 algebra/curves/mnt/mnt6/mnt6_g2.i: algebra/curves/mnt/mnt6/mnt6_g2.cpp.i
@@ -596,7 +596,7 @@ algebra/curves/mnt/mnt6/mnt6_g2.i: algebra/curves/mnt/mnt6/mnt6_g2.cpp.i
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt6/mnt6_g2.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.i
 .PHONY : algebra/curves/mnt/mnt6/mnt6_g2.cpp.i
 
 algebra/curves/mnt/mnt6/mnt6_g2.s: algebra/curves/mnt/mnt6/mnt6_g2.cpp.s
@@ -604,7 +604,7 @@ algebra/curves/mnt/mnt6/mnt6_g2.s: algebra/curves/mnt/mnt6/mnt6_g2.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt6/mnt6_g2.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.s
 .PHONY : algebra/curves/mnt/mnt6/mnt6_g2.cpp.s
 
 algebra/curves/mnt/mnt6/mnt6_init.o: algebra/curves/mnt/mnt6/mnt6_init.cpp.o
@@ -612,7 +612,7 @@ algebra/curves/mnt/mnt6/mnt6_init.o: algebra/curves/mnt/mnt6/mnt6_init.cpp.o
 
 # target to build an object file
 algebra/curves/mnt/mnt6/mnt6_init.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o
 .PHONY : algebra/curves/mnt/mnt6/mnt6_init.cpp.o
 
 algebra/curves/mnt/mnt6/mnt6_init.i: algebra/curves/mnt/mnt6/mnt6_init.cpp.i
@@ -620,7 +620,7 @@ algebra/curves/mnt/mnt6/mnt6_init.i: algebra/curves/mnt/mnt6/mnt6_init.cpp.i
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt6/mnt6_init.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.i
 .PHONY : algebra/curves/mnt/mnt6/mnt6_init.cpp.i
 
 algebra/curves/mnt/mnt6/mnt6_init.s: algebra/curves/mnt/mnt6/mnt6_init.cpp.s
@@ -628,7 +628,7 @@ algebra/curves/mnt/mnt6/mnt6_init.s: algebra/curves/mnt/mnt6/mnt6_init.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt6/mnt6_init.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.s
 .PHONY : algebra/curves/mnt/mnt6/mnt6_init.cpp.s
 
 algebra/curves/mnt/mnt6/mnt6_pairing.o: algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o
@@ -636,7 +636,7 @@ algebra/curves/mnt/mnt6/mnt6_pairing.o: algebra/curves/mnt/mnt6/mnt6_pairing.cpp
 
 # target to build an object file
 algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o
 .PHONY : algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o
 
 algebra/curves/mnt/mnt6/mnt6_pairing.i: algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i
@@ -644,7 +644,7 @@ algebra/curves/mnt/mnt6/mnt6_pairing.i: algebra/curves/mnt/mnt6/mnt6_pairing.cpp
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i
 .PHONY : algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i
 
 algebra/curves/mnt/mnt6/mnt6_pairing.s: algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s
@@ -652,7 +652,7 @@ algebra/curves/mnt/mnt6/mnt6_pairing.s: algebra/curves/mnt/mnt6/mnt6_pairing.cpp
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s
 .PHONY : algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s
 
 algebra/curves/mnt/mnt6/mnt6_pp.o: algebra/curves/mnt/mnt6/mnt6_pp.cpp.o
@@ -660,7 +660,7 @@ algebra/curves/mnt/mnt6/mnt6_pp.o: algebra/curves/mnt/mnt6/mnt6_pp.cpp.o
 
 # target to build an object file
 algebra/curves/mnt/mnt6/mnt6_pp.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o
 .PHONY : algebra/curves/mnt/mnt6/mnt6_pp.cpp.o
 
 algebra/curves/mnt/mnt6/mnt6_pp.i: algebra/curves/mnt/mnt6/mnt6_pp.cpp.i
@@ -668,7 +668,7 @@ algebra/curves/mnt/mnt6/mnt6_pp.i: algebra/curves/mnt/mnt6/mnt6_pp.cpp.i
 
 # target to preprocess a source file
 algebra/curves/mnt/mnt6/mnt6_pp.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.i
 .PHONY : algebra/curves/mnt/mnt6/mnt6_pp.cpp.i
 
 algebra/curves/mnt/mnt6/mnt6_pp.s: algebra/curves/mnt/mnt6/mnt6_pp.cpp.s
@@ -676,7 +676,7 @@ algebra/curves/mnt/mnt6/mnt6_pp.s: algebra/curves/mnt/mnt6/mnt6_pp.cpp.s
 
 # target to generate assembly for a file
 algebra/curves/mnt/mnt6/mnt6_pp.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.s
 .PHONY : algebra/curves/mnt/mnt6/mnt6_pp.cpp.s
 
 common/double.o: common/double.cpp.o
@@ -684,7 +684,7 @@ common/double.o: common/double.cpp.o
 
 # target to build an object file
 common/double.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.o
 .PHONY : common/double.cpp.o
 
 common/double.i: common/double.cpp.i
@@ -692,7 +692,7 @@ common/double.i: common/double.cpp.i
 
 # target to preprocess a source file
 common/double.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.i
 .PHONY : common/double.cpp.i
 
 common/double.s: common/double.cpp.s
@@ -700,7 +700,7 @@ common/double.s: common/double.cpp.s
 
 # target to generate assembly for a file
 common/double.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/double.cpp.s
 .PHONY : common/double.cpp.s
 
 common/profiling.o: common/profiling.cpp.o
@@ -708,7 +708,7 @@ common/profiling.o: common/profiling.cpp.o
 
 # target to build an object file
 common/profiling.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.o
 .PHONY : common/profiling.cpp.o
 
 common/profiling.i: common/profiling.cpp.i
@@ -716,7 +716,7 @@ common/profiling.i: common/profiling.cpp.i
 
 # target to preprocess a source file
 common/profiling.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.i
 .PHONY : common/profiling.cpp.i
 
 common/profiling.s: common/profiling.cpp.s
@@ -724,7 +724,7 @@ common/profiling.s: common/profiling.cpp.s
 
 # target to generate assembly for a file
 common/profiling.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/profiling.cpp.s
 .PHONY : common/profiling.cpp.s
 
 common/utils.o: common/utils.cpp.o
@@ -732,7 +732,7 @@ common/utils.o: common/utils.cpp.o
 
 # target to build an object file
 common/utils.cpp.o:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o
 .PHONY : common/utils.cpp.o
 
 common/utils.i: common/utils.cpp.i
@@ -740,7 +740,7 @@ common/utils.i: common/utils.cpp.i
 
 # target to preprocess a source file
 common/utils.cpp.i:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.i
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.i
 .PHONY : common/utils.cpp.i
 
 common/utils.s: common/utils.cpp.s
@@ -748,7 +748,7 @@ common/utils.s: common/utils.cpp.s
 
 # target to generate assembly for a file
 common/utils.cpp.s:
-	cd /Users/abhijatsharma/privacy_project/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.s
+	cd /Users/classroomservices/Documents/CS6413/build && $(MAKE) $(MAKESILENT) -f depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/build.make depends/libsnark/depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.s
 .PHONY : common/utils.cpp.s
 
 # Help Target
@@ -847,6 +847,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

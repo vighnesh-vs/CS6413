@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 # Utility rule file for ContinuousBuild.
 
@@ -67,7 +67,7 @@ include depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/compiler_depend
 include depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/progress.make
 
 depends/libsnark/libsnark/CMakeFiles/ContinuousBuild:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /opt/homebrew/bin/ctest -DMODEL=Continuous -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /opt/homebrew/bin/ctest -DMODEL=Continuous -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V
 
 depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/codegen:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/codegen
@@ -81,10 +81,10 @@ depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/build: ContinuousBuild
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/clean:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousBuild.dir/cmake_clean.cmake
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousBuild.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abhijatsharma/privacy_project /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake "--color=$(COLOR)" ContinuousBuild
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/classroomservices/Documents/CS6413 /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake "--color=$(COLOR)" ContinuousBuild
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ContinuousBuild.dir/depend
 

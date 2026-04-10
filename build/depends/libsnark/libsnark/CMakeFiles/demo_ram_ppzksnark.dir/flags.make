@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBINARY_OUTPUT -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DCURVE_ALT_BN128 -DMONTGOMERY_OUTPUT -DNO_PROCPS
 
-CXX_INCLUDES = -I/Users/abhijatsharma/privacy_project/. -I/Users/abhijatsharma/privacy_project/depends/libsnark/. -I/Users/abhijatsharma/privacy_project/depends/libff -I/Users/abhijatsharma/privacy_project/depends/libfqfft -I/Users/abhijatsharma/privacy_project/depends/libsnark/depends/libff/libff/.. -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/classroomservices/Documents/CS6413/. -I/Users/classroomservices/Documents/CS6413/depends/libsnark/. -I/Users/classroomservices/Documents/CS6413/depends/libff -I/Users/classroomservices/Documents/CS6413/depends/libfqfft -I/Users/classroomservices/Documents/CS6413/depends/libsnark/depends/libff/libff/.. -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -O2 -g -DNDEBUG -std=gnu++11 -arch arm64
 

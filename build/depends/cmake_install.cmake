@@ -1,4 +1,4 @@
-# Install script for directory: /Users/abhijatsharma/privacy_project/depends
+# Install script for directory: /Users/classroomservices/Documents/CS6413/depends
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/abhijatsharma/privacy_project/build/depends/libsnark/cmake_install.cmake")
+  include("/Users/classroomservices/Documents/CS6413/build/depends/libsnark/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/abhijatsharma/privacy_project/build/depends/install_local_manifest.txt"
+  file(WRITE "/Users/classroomservices/Documents/CS6413/build/depends/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

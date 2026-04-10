@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 # Utility rule file for ExperimentalStart.
 
@@ -67,7 +67,7 @@ include depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/compiler_depe
 include depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/progress.make
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalStart:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /opt/homebrew/bin/ctest -DMODEL=Experimental -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /opt/homebrew/bin/ctest -DMODEL=Experimental -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/codegen:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/codegen
@@ -81,10 +81,10 @@ depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/build: ExperimentalSt
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/clean:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalStart.dir/cmake_clean.cmake
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalStart.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abhijatsharma/privacy_project /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake "--color=$(COLOR)" ExperimentalStart
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/classroomservices/Documents/CS6413 /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake "--color=$(COLOR)" ExperimentalStart
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalStart.dir/depend
 

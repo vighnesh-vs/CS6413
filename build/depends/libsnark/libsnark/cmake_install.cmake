@@ -1,4 +1,4 @@
-# Install script for directory: /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark
+# Install script for directory: /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,7 +42,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/libsnark.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/libsnark.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsnark.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsnark.a")
     execute_process(COMMAND "/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsnark.a")
@@ -50,12 +50,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/install-cxx-module-bmi-RelWithDebInfo.cmake" OPTIONAL)
+  include("/Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/CMakeFiles/snark.dir/install-cxx-module-bmi-RelWithDebInfo.cmake" OPTIONAL)
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/install_local_manifest.txt"
+  file(WRITE "/Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

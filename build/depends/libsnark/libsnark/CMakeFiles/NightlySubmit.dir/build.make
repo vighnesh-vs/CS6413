@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 # Utility rule file for NightlySubmit.
 
@@ -67,7 +67,7 @@ include depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/compiler_depend.m
 include depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/progress.make
 
 depends/libsnark/libsnark/CMakeFiles/NightlySubmit:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /opt/homebrew/bin/ctest -DMODEL=Nightly -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /opt/homebrew/bin/ctest -DMODEL=Nightly -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V
 
 depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/codegen:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/codegen
@@ -81,10 +81,10 @@ depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/build: NightlySubmit
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/clean:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/NightlySubmit.dir/cmake_clean.cmake
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/NightlySubmit.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abhijatsharma/privacy_project /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/DependInfo.cmake "--color=$(COLOR)" NightlySubmit
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/classroomservices/Documents/CS6413 /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/DependInfo.cmake "--color=$(COLOR)" NightlySubmit
 .PHONY : depends/libsnark/libsnark/CMakeFiles/NightlySubmit.dir/depend
 

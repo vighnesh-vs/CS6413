@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/abhijatsharma/privacy_project/depends/libsnark
-BuildDirectory: /Users/abhijatsharma/privacy_project/build/depends/libsnark
+SourceDirectory: /Users/classroomservices/Documents/CS6413/depends/libsnark
+BuildDirectory: /Users/classroomservices/Documents/CS6413/build/depends/libsnark
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: MacBookAir
+Site: UNB-DW5TL4LVC2
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-c++
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/bin/cmake" "/Users/abhijatsharma/privacy_project/depends/libsnark"
+ConfigureCommand: "/opt/homebrew/bin/cmake" "/Users/classroomservices/Documents/CS6413/depends/libsnark"
 MakeCommand: /opt/homebrew/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -64,7 +64,7 @@ UpdateType:
 
 # Compiler info
 Compiler: /usr/bin/c++
-CompilerVersion: 17.0.0.17000604
+CompilerVersion: 21.0.0.21000099
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

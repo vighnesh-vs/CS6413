@@ -104,3 +104,9 @@ add_subdirectory(src)
 
 add_executable(zk_inference src/main.cpp)
 target_link_libraries(zk_inference PRIVATE snark)
+target_include_directories(
+  zk_inference
+  PUBLIC
+  ${DEPENDS_DIR}/libsnark
+  ${DEPENDS_DIR}/libsnark/depends/libfqfft
+)

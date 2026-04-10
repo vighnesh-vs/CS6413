@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/abhijatsharma/privacy_project
+CMAKE_SOURCE_DIR = /Users/classroomservices/Documents/CS6413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/abhijatsharma/privacy_project/build
+CMAKE_BINARY_DIR = /Users/classroomservices/Documents/CS6413/build
 
 # Utility rule file for ExperimentalUpdate.
 
@@ -67,7 +67,7 @@ include depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/compiler_dep
 include depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/progress.make
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && /opt/homebrew/bin/ctest -DMODEL=Experimental -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && /opt/homebrew/bin/ctest -DMODEL=Experimental -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/codegen:
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/codegen
@@ -81,10 +81,10 @@ depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/build: ExperimentalU
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/build
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/clean:
-	cd /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalUpdate.dir/cmake_clean.cmake
+	cd /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalUpdate.dir/cmake_clean.cmake
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/clean
 
 depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/depend:
-	cd /Users/abhijatsharma/privacy_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/abhijatsharma/privacy_project /Users/abhijatsharma/privacy_project/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark /Users/abhijatsharma/privacy_project/build/depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/DependInfo.cmake "--color=$(COLOR)" ExperimentalUpdate
+	cd /Users/classroomservices/Documents/CS6413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/classroomservices/Documents/CS6413 /Users/classroomservices/Documents/CS6413/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark /Users/classroomservices/Documents/CS6413/build/depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/DependInfo.cmake "--color=$(COLOR)" ExperimentalUpdate
 .PHONY : depends/libsnark/libsnark/CMakeFiles/ExperimentalUpdate.dir/depend
 
